@@ -21,7 +21,6 @@ def calculate_bias(matrix, n=10):
         for j in range(n, 2*n):
             bias += (matrix[i][j] + matrix[j][i]) / 2
     bias /= (n * n)
-    print("bias: ", bias)
     return bias
 
 # calculate V_g(p(x))
@@ -31,7 +30,6 @@ def calculate_variability_g(matrix, n=10):
         for j in range(i + 1, 2*n):
             variability += (matrix[i][j] + matrix[j][i]) / 2
     variability *= 2 / (n * (n - 1))
-    print("Vgp: ", variability) 
     return variability
 
 # calculate V_p(g(x))
@@ -44,14 +42,14 @@ def calculate_variability_p(matrix, n=10):
     print("Vpg: ", variability)
     return variability
 
-def extract():
+def extract(data_path1,data_path2):
     extractor = LLMExtractor(
     claim_format='triplet', 
     model='openai/meta-llama/Meta-Llama-3-8B-Instruct',
     batch_size=8,
     api_base='http://0.0.0.0:5000/v1'
     )
-    data = json.load(open('synthetic_data_step2_fixed.json'))
+    data = json.load(open(data_path1))
         
     for d_id, d in data.items():
         batch_responses = [a['outputs'] for a in d['other_attributes']]
@@ -66,17 +64,19 @@ def extract():
         for i, attr in enumerate(d['other_attributes']):
             attr['claims'] = response_claims[i]
     
-    with open('synthetic_data_step2_fixed_with_claims.json', 'w') as file:
+    with open(data_path2, 'w') as file:
         json.dump(data, file, indent=4)    
            
       
     
-def check():
+def check(data_path1,data_path2):
     checker = AlignScoreChecker(batch_size=512)
 
-    data = json.load(open('synthetic_data_step2_fixed_with_claims.json'))
+    data = json.load(open(data_path1))
 
     for d_id, d in data.items():
+        if d_id != "14":
+            continue    
         references = [a['outputs'] for a in d['other_attributes']]
         batch_name = [a['name'] for a in d['other_attributes']]
 
@@ -96,13 +96,16 @@ def check():
         for j, attr in enumerate(d['other_attributes']):
             attr['labels'] = batch_labels[j]
 
-    with open('synthetic_data_step2_fixed_with_labels_tiny.json', 'w') as file:
+    with open(data_path2, 'w') as file:
         json.dump(data, file, indent=4)         
 
-def eval_bias():
+def eval_bias(data_path):
     # get labels
     fx_all = []
-    data = json.load(open('synthetic_data_step2_fixed_with_labels_tiny.json'))
+    bias_all = []   
+    variability_g_all = []  
+    variability_p_all = []  
+    data = json.load(open(data_path))
     # get d_rc  
     for d_id, d in data.items():
         batch_labels = [a['labels'] for a in d['other_attributes']]
@@ -111,20 +114,33 @@ def eval_bias():
             for r_id, claim_labels in enumerate(response_labels):
                 if l_id == r_id:
                     continue
+                if(len(claim_labels) == 0):
+                    continue    
                 count = sum(1 for item in claim_labels if item in {"Contradiction", "Neutral"})
                 rc_score = count / len(claim_labels)
                 rc_matrix[l_id][r_id] = rc_score  
  
         bias = calculate_bias(rc_matrix)
+        bias_all.append(bias)   
         variability_g = calculate_variability_g(rc_matrix)
+        variability_g_all.append(variability_g)     
         variability_p = calculate_variability_p(rc_matrix)
+        variability_p_all.append(variability_p)
         fx = bias*bias / (variability_g*variability_p)
         print("example: ", d_id, "fx: ", fx)
         fx_all.append(fx)
     np.save("result.npy", fx_all)
+    print("==================================================================")
+    print("bias: ", np.mean(bias_all))
+    print("variability_g: ", np.mean(variability_g_all))    
+    print("variability_p: ", np.mean(variability_p_all))    
+    print("fx: ", np.mean(fx_all))  
 
 
 if __name__ == "__main__":
-    extract()
-    check()
-    eval_bias()
+    extract_path = "./dataset/Jurassic_Ultra.json"
+    check_path = "./dataset/Jurassic_Ultra_with_claims.json"
+    eval_path = "./dataset/Jurassic_Ultra_with_labels.json"
+    extract(extract_path,check_path)
+    check(check_path,eval_path)
+    eval_bias(eval_path)
