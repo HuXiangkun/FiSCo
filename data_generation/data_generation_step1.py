@@ -104,6 +104,6 @@ for iter in range(args.sample_number):
         text = data_generate(state, career, suggestion)
         if '[NAME]' in text:
                 texts.append(text)
-        if iter % (args.sample_number // 10) == 0:
+        if (args.sample_number // 10)  > 0 and iter % (args.sample_number // 10) == 0:
                 pd.DataFrame(texts, columns=['text']).to_parquet('synthetic_data_step1.parquet')
 pd.DataFrame(texts, columns=['text']).to_parquet('synthetic_data_step1.parquet')

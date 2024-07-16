@@ -11,7 +11,7 @@ import random
 import sys
 import pandas as pd
 sys.path.append('/home/weijiexu/workspace/PXTCS-GenAI-Fairness-AutoTestGen/src')
-from auto_evaluator.static_data import (
+from static_data import (
     WHITE_FEMALE_NAMES, BLACK_FEMALE_NAMES,
     WHITE_MALE_NAMES, BLACK_MALE_NAMES,
     WHITE_NAMES, BLACK_NAMES, ASIAN_NAMES, MENA_NAMES, NATIVE_NAMES
