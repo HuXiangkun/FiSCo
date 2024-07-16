@@ -1,5 +1,4 @@
-markdown
-Copy code
+
 # Data Generation and Analysis Pipeline
 
 This repository contains scripts for generating and analyzing data. Follow the steps below to set up and run the pipeline.
