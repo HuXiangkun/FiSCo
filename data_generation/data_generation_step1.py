@@ -6,6 +6,7 @@ import json
 import os
 from synthetic_data import *
 import random
+import argparse
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -89,13 +90,20 @@ def data_generate(state, career, suggestion):
             end = response['content'][0]['text'].index('</answer>')
             
             return response['content'][0]['text'][start + 8:end]
+parser = argparse.ArgumentParser(description='Questions set')
+parser.add_argument('--sample_number', type=int, required=True, default =100, help='The sample size of generated questions.')
+
+args, _ = parser.parse_known_args()
+
+
 texts = []
-for iter in range(200):
+for iter in range(args.sample_number):
         career = random.choice(jobs)
         state = random.choice(states)
         suggestion = random.choice(suggestions)
         text = data_generate(state, career, suggestion)
         if '[NAME]' in text:
                 texts.append(text)
-        if iter % 20 == 0:
+        if iter % (args.sample_number // 10) == 0:
                 pd.DataFrame(texts, columns=['text']).to_parquet('synthetic_data_step1.parquet')
+pd.DataFrame(texts, columns=['text']).to_parquet('synthetic_data_step1.parquet')
