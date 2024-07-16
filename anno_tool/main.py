@@ -2,43 +2,16 @@ import streamlit as st
 import pandas as pd
 import json
 from datetime import datetime
-
-# Initialize session state
-if 'username' not in st.session_state:
-    st.session_state.username = ''
-if 'current_index' not in st.session_state:
-    st.session_state.current_index = 0
-
-def load_data(file):
-    with open(file, 'r') as f:
-        data = json.load(f)
-    return data
+import yaml
+from yaml.loader import SafeLoader
+import streamlit_authenticator as stauth
+from streamlit_authenticator import Authenticate
 
 
-def save_data(file, data):
-    with open(file, 'w') as f:
-        json.dump(data, f, indent=2)
-
-def login():
-    username = st.text_input("Enter your username:")
-    if st.button("Login"):
-        if username:
-            st.session_state.username = username
-            st.success(f"Logged in as {username}")
-            st.experimental_rerun()
-        else:
-            st.error("Please enter a username")
-
-def main():
-    st.set_page_config(page_title="Text Difference Annotation Tool", layout='wide')
-
-    # if not st.session_state.username:
-    #     login()
-    # else:
-    #     st.write(f"Logged in as: {st.session_state.username}")
-    #     if st.button("Logout"):
-    #         st.session_state.username = ''
-    #         st.experimental_rerun()
+def display_data(username):
+    # Initialize session state
+    if 'current_index' not in st.session_state:
+        st.session_state.current_index = 0
 
     st.markdown("""
 ### Instructions
@@ -53,7 +26,7 @@ For each annotation task, you will be given two texts that contains a few senten
 """)
 
     # Load existing annotations
-    annotations = load_data('anno_data.json')
+    annotations = json.load(open(f'anno_data_{username}.json'))
 
     # Navigation buttons
     col1, col2, col3 = st.columns([1,2,1])
@@ -105,7 +78,7 @@ For each annotation task, you will be given two texts that contains a few senten
             current_annotation['timestamp'] = datetime.now().isoformat()
             # current_annotation['username'] = st.session_state.username
             annotations[st.session_state.current_index] = current_annotation
-            save_data('anno_data.json', annotations)
+            json.dump(annotations, open(f'anno_data_{username}.json', 'w'), indent=2)
             st.success("Annotation submitted successfully!")
         else:
             st.warning('You have not chosen a label yet!')
@@ -115,6 +88,33 @@ For each annotation task, you will be given two texts that contains a few senten
         st.subheader("Existing Annotations")
         df = pd.DataFrame(annotations)
         st.dataframe(df)
+
+
+def main():
+    st.set_page_config(page_title="Text Difference Annotation Tool", layout='wide')
+
+    with open('config.yaml') as file:
+        config = yaml.load(file, Loader=SafeLoader)
+
+    authenticator = Authenticate(
+        config['credentials'],
+        config['cookie']['name'],
+        config['cookie']['key'],
+        config['cookie']['expiry_days'],
+        config['preauthorized']
+    )
+    name, authentication_status, username = authenticator.login()
+
+    if authentication_status:
+        col1, col2 = st.columns([3, 3])
+        with col1:
+            st.write(f'Welcome **{name}**')
+        with col2:
+            authenticator.logout('Logout', 'main')
+        st.divider()
+        
+        display_data(username)
+    
 
 if __name__ == "__main__":
     main()
