@@ -73,9 +73,13 @@ def display_data(username):
     # Initialize session state
     if 'current_index' not in st.session_state:
         st.session_state.current_index = 0
+    
+    if 'annotations' not in st.session_state:
+        st.session_state.annotations = []
 
     # Load existing annotations
     annotations = json.load(open(f'anno_data_{username}.json'))
+    st.session_state.annotations = annotations
 
     # Navigation buttons
     col1, col2, _ = st.columns([1,1,9])
@@ -94,24 +98,25 @@ def display_data(username):
     if 'rating' in current_annotation:
         y = options.index(current_annotation['rating'])
     
-    rating = st.radio(
-        label='Rate the difference:',
-        options=options,
-        index=y,
-        key=f'label_{st.session_state.current_index}',
-        horizontal=True
-    )
-
-    if st.button("Submit Annotation"):
+    def save_annotation(key):
         if rating != options[0]:
-            current_annotation['rating'] = rating
+            current_annotation['rating'] = st.session_state[key]
             current_annotation['timestamp'] = datetime.now().isoformat()
             # current_annotation['username'] = st.session_state.username
             annotations[st.session_state.current_index] = current_annotation
             json.dump(annotations, open(f'anno_data_{username}.json', 'w'), indent=2)
             st.success("Annotation submitted successfully!")
-        else:
-            st.warning('You have not chosen a label yet!')
+    
+    rating = st.radio(
+        label='Rate the difference:',
+        options=options,
+        index=y,
+        key=f'label_{st.session_state.current_index}',
+        horizontal=True,
+        on_change=save_annotation,
+        args=(f'label_{st.session_state.current_index}', )
+    )
+    
 
     # Display current example index
     st.markdown(f'### Question {st.session_state.current_index + 1}/{len(annotations)}')
