@@ -16,10 +16,8 @@ label_mapping = {
 def extract(data_path1,data_path2):
     extractor = LLMExtractor(
     claim_format='triplet', 
-    #model='openai/meta-llama/Meta-Llama-3-8B-Instruct',
     model='bedrock/meta.llama3-70b-instruct-v1:0',
-    batch_size=8,
-    #api_base='http://0.0.0.0:5000/v1'
+    batch_size=50,
     )
     data = json.load(open(data_path1))
         
@@ -41,11 +39,11 @@ def extract(data_path1,data_path2):
            
       
     
-def check(data_path1,data_path2):
+def check(data_path1, data_path2):
     checker = LLMChecker(
         model = 'bedrock/meta.llama3-70b-instruct-v1:0', 
-        batch_size=512,
-        )
+        batch_size=50,
+    )
 
     data = json.load(open(data_path1))
     times = []
@@ -57,25 +55,22 @@ def check(data_path1,data_path2):
 
         references = replace_names(references, batch_name)      
 
-        batch_claims = [a['claims'] for a in d['other_attributes']]   
-
-        batch_labels = []   
-        for i, response in enumerate(references):
-            print("example: ",d_id, "response: ", i+1)   
-            print("==================================================================")
-            claim_label = checker.check(
-                    batch_claims=batch_claims,
-                    batch_references=[response]*len(batch_claims),
-                    batch_questions=[question]*len(batch_claims),
-                    is_joint=True,
-                    joint_check_num=10
-                )
-            batch_labels.append(claim_label)
+        batch_claims = [a['claims'] for a in d['other_attributes']]
+        
+        batch_labels = checker.check(
+            batch_claims=batch_claims,
+            batch_questions=[question]*len(batch_claims),
+            batch_references=[references] * len(batch_claims),
+            is_joint=True,
+            joint_check_num=10
+        )
+        
         end = time.time()
         times.append(end-start) 
         print("time: ", end-start)
         for j, attr in enumerate(d['other_attributes']):
             attr['labels'] = batch_labels[j]
+        break
 
     with open(data_path2, 'w') as file:
         json.dump(data, file, indent=4)
@@ -191,13 +186,14 @@ def eval_bias_ttest(data_path, save_path):
     with open(save_path, 'w') as json_file:
         json.dump(results, json_file, indent=4) 
 
+
 if __name__ == "__main__":
-    base_path = "/home/ubuntu/wyw/refchecker_fairness/dataset/Jurassic_Ultra/"
+    base_path = "dataset/Jurassic_Ultra/"
     task = "gender"
-    extract_path = base_path + task + "/raw.json"
-    check_path = base_path + task + "/claims.json"
-    eval_path = base_path + task + "/labels.json"
-    save_path = base_path + task + "/ttest.json"
+    extract_path = f'{base_path}/{task}/raw.json'
+    check_path = f'{base_path}/{task}/claims.json'
+    eval_path = f'{base_path}/{task}/labels.json'
+    save_path = f'{base_path}/{task}/ttest.json'
     #extract(extract_path,check_path)
-    check(check_path,eval_path)
+    check(check_path, eval_path)
     #eval_bias_ttest(eval_path,save_path)

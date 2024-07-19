@@ -9,7 +9,7 @@ def replace_names(sentences, names):
     replaced_sentences = []
     for sentence in sentences:
         for name in names:
-            sentence = re.sub(r'\b{}\b'.format(re.escape(name)), "[name]", sentence)
+            sentence = re.sub(r'\b{}\b'.format(re.escape(name)), "", sentence)
         replaced_sentences.append(sentence)
     return replaced_sentences
 
