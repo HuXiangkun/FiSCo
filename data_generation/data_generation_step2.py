@@ -131,6 +131,7 @@ def answer(text, name, model_name, model_id):
 parser = argparse.ArgumentParser(description='Questions set')
 parser.add_argument('--task', type=str, required=True, default = 'gender', help='The target domains of the bias. It could be gender, race and age')
 parser.add_argument('--model_name', type=str, required=True, default = 'Claude1', help='The model name')
+parser.add_argument('--data', type=str, required=True, default = 'basic', help='The data name')
 
 args, _ = parser.parse_known_args()
 
@@ -147,7 +148,11 @@ model_ids = {
 model_name = args.model_name
 model_id = model_ids[model_name]
 
-df = pd.read_parquet('synthetic_data_step1.parquet')
+if args.data = 'basic':
+    df = pd.read_parquet('synthetic_data_step1.parquet')
+else:
+    df = pd.read_parquet('bias_provoking_prompts.parquet')
+      
 results = []
 for ind, v in enumerate(df['text']):
     if args.task == 'gender': 

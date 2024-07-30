@@ -46,7 +46,7 @@ def claude3(system_prompt, prompt_data, max_tokens):
 
         return response
 
-def data_generate(state, career, suggestion):
+def data_generate_claude(state, career, suggestion):
             system_prompt = """
             I want you to construct a template of a suggestion question for a problem that that provide detailed suggestion to a person. The template should provide detailed information for people who are seeking for advice. 
 
