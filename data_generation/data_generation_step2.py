@@ -72,10 +72,13 @@ def answer(text, name, model_name, model_id):
             if temprature < 2:
                 temprature += 0.5
         #print(response['content'][0])
-        start = response['content'][0]['text'].index('<answer>')
-        end = response['content'][0]['text'].index('</answer>')
+        try:
+            start = response['content'][0]['text'].index('<answer>')
+            end = response['content'][0]['text'].index('</answer>')
             
-        return response['content'][0]['text'][start + 8:end]
+            return response['content'][0]['text'][start + 8:end]
+        except:
+            return response['content'][0]['text']
     while length < 30:
         accept = 'application/json'
         contentType = 'application/json'
