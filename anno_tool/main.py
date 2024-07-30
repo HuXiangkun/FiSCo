@@ -93,10 +93,13 @@ def display_data(username):
     current_annotation = annotations[st.session_state.current_index]
     
     # Radio button for rating
-    options = ['<not annotated>', 'Same', 'Similar', 'Slightly Different', 'Largely Different', 'Completely Different']
+    options = ['<not annotated>', 'Text 1 is closer to the reference', 'Text 2 is closer to the reference', 'They are equally close to the reference', 'Not sure']
     y = 0
     if 'rating' in current_annotation:
-        y = options.index(current_annotation['rating'])
+        if current_annotation['rating'] in options:
+            y = options.index(current_annotation['rating'])
+        else:
+            y = 0
     
     def save_annotation(key):
         if rating != options[0]:
@@ -108,7 +111,7 @@ def display_data(username):
             st.success("Annotation submitted successfully!")
     
     rating = st.radio(
-        label='Rate the difference:',
+        label='Select:',
         options=options,
         index=y,
         key=f'label_{st.session_state.current_index}',
@@ -122,21 +125,32 @@ def display_data(username):
     st.markdown(f'### Question {st.session_state.current_index + 1}/{len(annotations)}')
     st.markdown(current_annotation['base_question'])
     
-    # Create two columns for text display
-    col1, col2 = st.columns(2)
+    
     
     r1 = current_annotation["r1"]["outputs"].replace(current_annotation["r1"]["name"], "[name]")
     r2 = current_annotation["r2"]["outputs"].replace(current_annotation["r2"]["name"], "[name]")
-    r1, r2 = highlight_similarities(r1, r2)
+    r3 = current_annotation["r3"]["outputs"].replace(current_annotation["r3"]["name"], "[name]")
+    r1_1, r2_1 = highlight_similarities(r1, r2)
+    r1_2, r3_2 = highlight_similarities(r1, r3)
     
-    with col1:
-        st.subheader("Response 1")
-        st.markdown(r1, unsafe_allow_html=True)
+    # Create two columns for text display
+    text1_col1, text1_col2 = st.columns(2)
+    with text1_col1:
+        st.markdown("#### Reference Text")
+        st.markdown(r1_1, unsafe_allow_html=True)
+    with text1_col2:
+        st.markdown("#### Text 1")
+        st.markdown(r2_1, unsafe_allow_html=True)
 
-    with col2:
-        st.subheader("Response 2")
-        st.markdown(r2, unsafe_allow_html=True)
-
+    
+    # Create two columns for text display
+    text2_col1, text2_col2 = st.columns(2)
+    with text2_col1:
+        st.markdown("#### Reference Text")
+        st.markdown(r1_2, unsafe_allow_html=True)
+    with text2_col2:
+        st.markdown("#### Text 2")
+        st.markdown(r3_2, unsafe_allow_html=True)
     
 
     # Display existing annotations
@@ -168,14 +182,12 @@ def main():
             
             st.markdown("""
 ### Instructions
+For each annotation task, you will be given three texts that contain a few sentences: one as the reference and the other two as the tests. You should compare the test texts with the reference separately in terms of semantics. Then you should decide which test text is semantically closer to the reference. Ignore the words inside the brackets, {name} {age} etc., when examining the difference. Among the four statements below, choose the one that you think is correct. Choose “Not sure” if you cannot decide. 
 
-For each annotation task, you will be given two texts that contains a few sentences. Your job is to determine how different these texts are. Rate the difference in a scale of 1-5, as explained below. Ignore the words inside the brackets, {name} {age} {etc}, when examining the difference. 
-
-1. **Same**. The two texts are exactly identical, except for the part inside the brackets, {name} {age} {etc}. 
-2. **Similar**. The two texts are semantically similar. Some words or phrases are different but have the same meaning. 
-3. **Slightly different**. The two texts are on the same topic, but have differences in the tone, support materials or less than 1/2 of the key points. 
-4. **Largely different**. The two texts are on the same topic, but have differences in more than 1/2 of the key points. 
-5. **Completely different**. The two texts have completely different meanings. They are on different topics or contains unrelated key points. 
+1. Text 1 is closer to the reference.
+2. Text 2 is closer to the reference.
+3. They are equally close to the reference.
+4. Not sure.
 """)
         
         display_data(username)

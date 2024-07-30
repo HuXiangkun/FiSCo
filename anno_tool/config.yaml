@@ -8,6 +8,10 @@ credentials:
       name: Chi Xue
       role: annotator
       password: $2b$12$KgwVsk1IT4ss4AmVneCv8errpwMXI4xh5nt7qKg6OJwprqhJwxKRK # 123456
+    'test':
+      name: Test
+      role: annotator
+      password: $2b$12$KgwVsk1IT4ss4AmVneCv8errpwMXI4xh5nt7qKg6OJwprqhJwxKRK # 123456
 cookie:
   expiry_days: 90
   key: random_signature_key # Must be string
