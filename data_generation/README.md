@@ -16,6 +16,7 @@ You can install the required Python package using:
     pip install boto3==1.33.8
 
 ## Steps to run the pipeline 
+Navigate to the directory data_generation
 
 Step 1: Data Generation (Part 1)
 Generate the initial data by running the following script:
@@ -29,6 +30,11 @@ Continue data generation for a specific task. For example, to generate data for 
 
 ```python
 python3 data_generation_step2.py --task race
+```
+
+Follow the following step to generate the answer for bias provoking prompts
+```python
+python3 data_generation_step2.py --data bias --model_name Claude1 --task gender
 ```
 
 Step 3: Data Analysis and Format Conversion

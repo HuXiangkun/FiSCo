@@ -24,24 +24,25 @@ bedrock = boto3.client(
 
 
 
-def claude3(system_prompt, prompt_data, max_tokens, modelId):
+def claude3(system_prompt, prompt_data, max_tokens, modelId, temprature):
 
 
         user_message =  {"role": "user", "content": prompt_data}
         messages = [user_message]
-        response = generate_message(bedrock, modelId, system_prompt, messages, max_tokens)        
+        response = generate_message(bedrock, modelId, system_prompt, messages, max_tokens, temprature)        
         
 
         return response
 
-def generate_message(bedrock, model_id, system_prompt, messages, max_tokens):
+def generate_message(bedrock, model_id, system_prompt, messages, max_tokens, temprature = 0):
 
     body=json.dumps(
         {
             "anthropic_version": "bedrock-2023-05-31",
             "max_tokens": max_tokens,
             "system": system_prompt,
-            "messages": messages
+            "messages": messages,
+            "temperature": temprature,
         }  
     )  
 
@@ -63,7 +64,14 @@ def answer(text, name, model_name, model_id):
                 """
         prompt_data = text
         max_tokens = 500
-        response = claude3(system_prompt, prompt_data, max_tokens, model_id)
+        response = "apologize"
+        temprature = 0
+        while "apologize" in response:
+            
+            response = claude3(system_prompt, prompt_data, max_tokens, model_id, temprature)
+            if temprature < 2:
+                temprature += 0.5
+        #print(response['content'][0])
         start = response['content'][0]['text'].index('<answer>')
         end = response['content'][0]['text'].index('</answer>')
             
@@ -148,7 +156,7 @@ model_ids = {
 model_name = args.model_name
 model_id = model_ids[model_name]
 
-if args.data = 'basic':
+if args.data == 'basic':
     df = pd.read_parquet('synthetic_data_step1.parquet')
 else:
     df = pd.read_parquet('bias_provoking_prompts.parquet')
