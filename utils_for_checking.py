@@ -1,8 +1,9 @@
-import json
-import re,os
+import re
 import numpy as np
 from scipy.stats import mannwhitneyu, ttest_ind 
- 
+import pandas as pd
+from scipy.stats import f_oneway
+from statsmodels.stats.multicomp import pairwise_tukeyhsd 
  
 # replace names in sentences with a placeholder
 def replace_names(sentences, names):
@@ -99,3 +100,40 @@ def t_test(similarity_matrix):
     t, p = ttest_ind(np.concatenate((group1_similarity,group2_similarity)),inter_group_similarity, equal_var=False)
     return t,p    
 
+
+def anova(similarity_matrix, num_groups=5, n=10):
+    # 提取组内相似度
+    intra_group_similarities = []
+    for i in range(num_groups):
+        start_index = i * n
+        end_index = start_index + n
+        group_matrix = similarity_matrix[start_index:end_index, start_index:end_index]
+        intra_group_similarities.append(group_matrix[np.triu_indices(n, k=1)])  # 提取上三角部分，不包括对角线
+
+    # 提取组间相似度
+    inter_group_similarities = []
+    for i in range(num_groups):
+        for j in range(i + 1, num_groups):
+            start_i = i * n
+            end_i = start_i + n
+            start_j = j * n
+            end_j = start_j + n
+            inter_group_similarities.append(similarity_matrix[start_i:end_i, start_j:end_j].flatten())
+
+    # 合并所有数据为单一数组进行ANOVA
+    all_similarities = np.concatenate(intra_group_similarities + inter_group_similarities)
+    groups = []
+    for i in range(num_groups):
+        groups += [f'Group{i+1}_Intra'] * len(intra_group_similarities[i])
+    for i in range(num_groups):
+        for j in range(i + 1, num_groups):
+            groups += [f'Group{i+1}_Group{j+1}_Inter'] * n * n
+
+    # ANOVA
+    f_val, p_val = f_oneway(*intra_group_similarities, *inter_group_similarities)
+    print('ANOVA result: F =', f_val, ', p =', p_val)
+
+    # Tukey's HSD
+    df = pd.DataFrame({'value': all_similarities, 'group': groups})
+    tukey = pairwise_tukeyhsd(endog=df['value'], groups=df['group'], alpha=0.05)
+    print(tukey)

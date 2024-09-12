@@ -1,4 +1,4 @@
-from refchecker import LLMExtractor, AlignScoreChecker, LLMChecker
+from refchecker import LLMExtractor, LLMChecker
 import json
 import os
 import numpy as np
@@ -70,7 +70,6 @@ def check(data_path1, data_path2):
         print("time: ", end-start)
         for j, attr in enumerate(d['other_attributes']):
             attr['labels'] = batch_labels[j]
-        break
 
     with open(data_path2, 'w') as file:
         json.dump(data, file, indent=4)
@@ -155,45 +154,60 @@ def eval_bias_utest(data_path):
         json.dump(results, json_file, indent=4) 
            
 
-def eval_bias_ttest(data_path, save_path):
+def eval_bias_ttest(data_path, save_path, task):
     data = json.load(open(data_path))      
     results = {} 
+
     for d_id, d in data.items():
-        
+        if d_id != "1":
+            continue
+
         batch_labels = [a['labels'] for a in d['other_attributes']]
-        score_matrix = np.zeros((len(batch_labels), len(batch_labels)))  
-        length_matrix = np.zeros((len(batch_labels), len(batch_labels))) 
 
-        for l_id, response_labels in enumerate(batch_labels):
-            for r_id, claim_labels in enumerate(response_labels):
-                if l_id == r_id:
-                    continue
-                if(len(claim_labels) == 0):
-                    continue    
-                score_sum = sum(label_mapping.get(item, 0) for item in claim_labels)
+        score_matrix = np.zeros((len(batch_labels), len(batch_labels)))
+        length_matrix = np.zeros((len(batch_labels), len(batch_labels)))
 
-                length = len(claim_labels)
-                score_matrix[l_id][r_id] = score_sum
-                length_matrix[l_id][r_id] = length
-        
+
+        for l_id, claims_labels in enumerate(batch_labels):
+            for c_id, claim_labels in enumerate(claims_labels):  # 遍历每个claim的标签集
+                for r_id, label in enumerate(claim_labels):  # 遍历此claim针对其他response的标签
+                    if r_id == l_id:
+                        continue  # 跳过自身的比较
+                    score = label_mapping.get(label, 0)
+                    score_matrix[l_id][r_id] += score
+                    length_matrix[l_id][r_id] += 1
+
+        # 计算平均得分
+        for i in range(len(batch_labels)):
+            for j in range(len(batch_labels)):
+                if length_matrix[i][j] > 0:
+                    score_matrix[i][j] /= length_matrix[i][j]
+
         similarity_matrix = calculate_similarity(score_matrix,length_matrix)
-        t,p =  t_test(similarity_matrix)
-        results[d_id] = {
-        "t-value": t,
-        "p-value": p,
-        }       
+        if task != 'race':
+            t,p =  t_test(similarity_matrix)
+            results[d_id] = {
+            "t-value": t,
+            "p-value": p,
+            }
+        else:
+           print("ANOVA")
+           anova(similarity_matrix) 
+        
 
-    with open(save_path, 'w') as json_file:
-        json.dump(results, json_file, indent=4) 
-
+    # with open(save_path, 'w') as json_file:
+    #     json.dump(results, json_file, indent=4)
 
 if __name__ == "__main__":
-    base_path = "dataset/Jurassic_Ultra/"
-    task = "gender"
-    extract_path = f'{base_path}/{task}/raw.json'
-    check_path = f'{base_path}/{task}/claims.json'
-    eval_path = f'{base_path}/{task}/labels.json'
-    save_path = f'{base_path}/{task}/ttest.json'
+    base_path = "dataset"
+    model = "Jurassic_Ultra"  
+    #model = ""
+    task = "race"
+    extract_path = f'{base_path}/{model}/{task}/raw.json'
+    check_path = f'{base_path}/{model}/{task}/claims.json'
+    eval_path = f'{base_path}/{model}/{task}/labels.json'
+    save_path = f'results/{model}/{task}/ttest.json'
     #extract(extract_path,check_path)
-    check(check_path, eval_path)
-    #eval_bias_ttest(eval_path,save_path)
+    #check(check_path, eval_path)
+    eval_bias_ttest(eval_path,save_path,task)
+    
