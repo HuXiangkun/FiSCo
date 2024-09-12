@@ -1,888 +1,0 @@
-nohup: ignoring input
-Warning: scikit-learn-intelex not installed, sklearn acceleration for the RepC checker is not enabled.
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:27<00:00, 27.62s/it]100%|██████████| 1/1 [00:27<00:00, 27.62s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:48<00:00, 48.44s/it]100%|██████████| 1/1 [00:48<00:00, 48.44s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:17<00:00, 17.52s/it]100%|██████████| 1/1 [00:17<00:00, 17.52s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:13<00:00, 13.99s/it]100%|██████████| 1/1 [00:13<00:00, 13.99s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:12<00:00, 12.75s/it]100%|██████████| 1/1 [00:12<00:00, 12.75s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:22<00:00, 22.68s/it]100%|██████████| 1/1 [00:22<00:00, 22.68s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:52<00:00, 52.06s/it]100%|██████████| 1/1 [00:52<00:00, 52.06s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:27<00:00, 27.07s/it]100%|██████████| 1/1 [00:27<00:00, 27.07s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:42<00:00, 42.85s/it]100%|██████████| 1/1 [00:42<00:00, 42.85s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:19<00:00, 19.83s/it]100%|██████████| 1/1 [00:19<00:00, 19.83s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:11<00:00, 11.56s/it]100%|██████████| 1/1 [00:11<00:00, 11.56s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:16<00:00, 16.54s/it]100%|██████████| 1/1 [00:16<00:00, 16.54s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:12<00:00, 12.91s/it]100%|██████████| 1/1 [00:12<00:00, 12.91s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:17<00:00, 17.74s/it]100%|██████████| 1/1 [00:17<00:00, 17.74s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:11<00:00, 11.62s/it]100%|██████████| 1/1 [00:11<00:00, 11.62s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:23<00:00, 23.15s/it]100%|██████████| 1/1 [00:23<00:00, 23.15s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:43<00:00, 43.22s/it]100%|██████████| 1/1 [00:43<00:00, 43.22s/it]
-  0%|          | 0/90 [00:00<?, ?it/s]  1%|          | 1/90 [00:04<07:15,  4.89s/it]  2%|▏         | 2/90 [00:07<05:04,  3.46s/it]  3%|▎         | 3/90 [00:09<04:17,  2.96s/it]  4%|▍         | 4/90 [00:15<05:44,  4.01s/it]  6%|▌         | 5/90 [00:32<12:16,  8.67s/it]  7%|▋         | 6/90 [00:35<09:43,  6.95s/it]  8%|▊         | 7/90 [00:38<07:51,  5.69s/it]  9%|▉         | 8/90 [00:44<07:47,  5.70s/it] 10%|█         | 9/90 [00:50<07:40,  5.68s/it] 11%|█         | 10/90 [00:58<08:45,  6.57s/it] 12%|█▏        | 11/90 [01:04<08:24,  6.39s/it] 13%|█▎        | 12/90 [01:16<10:33,  8.13s/it] 14%|█▍        | 13/90 [01:29<12:03,  9.40s/it] 16%|█▌        | 14/90 [01:32<09:29,  7.50s/it] 17%|█▋        | 15/90 [01:37<08:39,  6.92s/it] 18%|█▊        | 16/90 [01:43<07:59,  6.48s/it] 19%|█▉        | 17/90 [01:50<07:56,  6.52s/it] 20%|██        | 18/90 [01:52<06:15,  5.22s/it] 21%|██        | 19/90 [01:58<06:34,  5.56s/it] 22%|██▏       | 20/90 [02:09<08:19,  7.13s/it] 23%|██▎       | 21/90 [02:14<07:23,  6.43s/it] 24%|██▍       | 22/90 [02:17<06:17,  5.55s/it] 26%|██▌       | 23/90 [02:23<06:11,  5.55s/it] 27%|██▋       | 24/90 [02:51<13:36, 12.37s/it] 28%|██▊       | 25/90 [02:55<10:48,  9.98s/it] 29%|██▉       | 26/90 [03:12<12:48, 12.00s/it] 30%|███       | 27/90 [03:15<09:45,  9.29s/it] 31%|███       | 28/90 [03:19<07:57,  7.69s/it] 32%|███▏      | 29/90 [03:23<06:45,  6.65s/it] 33%|███▎      | 30/90 [03:26<05:21,  5.36s/it] 34%|███▍      | 31/90 [03:45<09:21,  9.51s/it] 36%|███▌      | 32/90 [03:52<08:31,  8.82s/it] 37%|███▋      | 33/90 [04:00<08:02,  8.47s/it] 38%|███▊      | 34/90 [04:04<06:36,  7.07s/it] 39%|███▉      | 35/90 [04:09<06:09,  6.72s/it] 40%|████      | 36/90 [04:15<05:46,  6.41s/it] 41%|████      | 37/90 [04:21<05:39,  6.40s/it] 42%|████▏     | 38/90 [04:25<04:53,  5.64s/it] 43%|████▎     | 39/90 [04:30<04:24,  5.19s/it] 44%|████▍     | 40/90 [04:50<08:13,  9.88s/it] 46%|████▌     | 41/90 [05:03<08:51, 10.84s/it] 47%|████▋     | 42/90 [05:24<10:53, 13.62s/it] 48%|████▊     | 43/90 [05:54<14:40, 18.73s/it] 49%|████▉     | 44/90 [06:02<11:45, 15.34s/it] 50%|█████     | 45/90 [06:04<08:41, 11.60s/it] 51%|█████     | 46/90 [06:07<06:32,  8.93s/it] 52%|█████▏    | 47/90 [06:49<13:31, 18.88s/it] 53%|█████▎    | 48/90 [06:56<10:42, 15.30s/it] 54%|█████▍    | 49/90 [06:59<07:54, 11.56s/it] 56%|█████▌    | 50/90 [07:12<08:00, 12.01s/it] 57%|█████▋    | 51/90 [07:45<11:55, 18.36s/it] 58%|█████▊    | 52/90 [08:02<11:24, 18.01s/it] 59%|█████▉    | 53/90 [08:07<08:31, 13.82s/it] 60%|██████    | 54/90 [08:11<06:38, 11.06s/it] 61%|██████    | 55/90 [08:16<05:24,  9.28s/it] 62%|██████▏   | 56/90 [08:20<04:21,  7.69s/it] 63%|██████▎   | 57/90 [08:24<03:35,  6.54s/it] 64%|██████▍   | 58/90 [08:30<03:18,  6.22s/it] 66%|██████▌   | 59/90 [08:43<04:17,  8.31s/it] 67%|██████▋   | 60/90 [08:50<03:58,  7.94s/it] 68%|██████▊   | 61/90 [09:34<09:08, 18.92s/it] 69%|██████▉   | 62/90 [09:38<06:43, 14.41s/it] 70%|███████   | 63/90 [09:52<06:24, 14.26s/it] 71%|███████   | 64/90 [10:01<05:27, 12.60s/it] 72%|███████▏  | 65/90 [10:40<08:30, 20.42s/it] 73%|███████▎  | 66/90 [10:43<06:05, 15.21s/it] 74%|███████▍  | 67/90 [10:50<04:54, 12.81s/it] 76%|███████▌  | 68/90 [10:56<03:55, 10.69s/it] 77%|███████▋  | 69/90 [11:09<04:00, 11.46s/it] 78%|███████▊  | 70/90 [11:14<03:10,  9.51s/it] 79%|███████▉  | 71/90 [11:16<02:21,  7.44s/it] 80%|████████  | 72/90 [11:40<03:39, 12.18s/it] 81%|████████  | 73/90 [11:45<02:54, 10.27s/it] 82%|████████▏ | 74/90 [11:50<02:18,  8.68s/it] 83%|████████▎ | 75/90 [12:01<02:16,  9.13s/it] 84%|████████▍ | 76/90 [12:03<01:40,  7.16s/it] 86%|████████▌ | 77/90 [12:09<01:28,  6.82s/it] 87%|████████▋ | 78/90 [12:14<01:15,  6.31s/it] 88%|████████▊ | 79/90 [12:22<01:13,  6.68s/it] 89%|████████▉ | 80/90 [12:28<01:05,  6.51s/it] 90%|█████████ | 81/90 [12:42<01:19,  8.78s/it] 91%|█████████ | 82/90 [12:48<01:02,  7.87s/it] 92%|█████████▏| 83/90 [12:56<00:56,  8.11s/it] 93%|█████████▎| 84/90 [13:01<00:41,  6.97s/it] 94%|█████████▍| 85/90 [13:05<00:30,  6.06s/it] 96%|█████████▌| 86/90 [13:09<00:21,  5.48s/it] 97%|█████████▋| 87/90 [13:16<00:17,  5.88s/it] 98%|█████████▊| 88/90 [13:18<00:09,  4.86s/it] 99%|█████████▉| 89/90 [13:22<00:04,  4.65s/it]100%|██████████| 90/90 [13:27<00:00,  4.58s/it]100%|██████████| 90/90 [13:27<00:00,  8.97s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.APIConnectionError: Server disconnected without sending a response.
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 238, in _receive_event
-    raise RemoteProtocolError(msg)
-httpcore.RemoteProtocolError: Server disconnected without sending a response.
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.RemoteProtocolError: Server disconnected without sending a response.
- [sleep 10 seconds]
-time:  807.2783200740814
-  0%|          | 0/76 [00:00<?, ?it/s]  1%|▏         | 1/76 [00:06<07:36,  6.09s/it]  3%|▎         | 2/76 [00:28<19:26, 15.76s/it]  4%|▍         | 3/76 [00:37<15:17, 12.57s/it]  5%|▌         | 4/76 [00:40<10:45,  8.96s/it]  7%|▋         | 5/76 [00:47<09:33,  8.08s/it]  8%|▊         | 6/76 [00:51<07:52,  6.75s/it]  9%|▉         | 7/76 [01:06<10:47,  9.39s/it] 11%|█         | 8/76 [01:09<08:32,  7.54s/it] 12%|█▏        | 9/76 [01:14<07:20,  6.57s/it] 13%|█▎        | 10/76 [01:16<05:46,  5.25s/it] 14%|█▍        | 11/76 [01:21<05:26,  5.03s/it] 16%|█▌        | 12/76 [01:31<06:57,  6.53s/it] 17%|█▋        | 13/76 [01:34<05:59,  5.71s/it] 18%|█▊        | 14/76 [01:39<05:30,  5.33s/it] 20%|█▉        | 15/76 [01:45<05:39,  5.57s/it] 21%|██        | 16/76 [02:01<08:46,  8.77s/it] 22%|██▏       | 17/76 [02:06<07:23,  7.51s/it] 24%|██▎       | 18/76 [02:09<05:54,  6.11s/it] 25%|██▌       | 19/76 [02:48<15:17, 16.10s/it] 26%|██▋       | 20/76 [02:53<11:59, 12.84s/it] 28%|██▊       | 21/76 [02:59<09:53, 10.78s/it] 29%|██▉       | 22/76 [03:05<08:22,  9.31s/it] 30%|███       | 23/76 [03:09<06:50,  7.74s/it] 32%|███▏      | 24/76 [03:12<05:19,  6.14s/it] 33%|███▎      | 25/76 [03:14<04:12,  4.96s/it] 34%|███▍      | 26/76 [03:17<03:44,  4.49s/it] 36%|███▌      | 27/76 [03:44<09:12, 11.27s/it] 37%|███▋      | 28/76 [03:48<07:13,  9.02s/it] 38%|███▊      | 29/76 [03:53<06:11,  7.90s/it] 39%|███▉      | 30/76 [03:58<05:19,  6.95s/it] 41%|████      | 31/76 [04:07<05:41,  7.58s/it] 42%|████▏     | 32/76 [04:11<04:47,  6.52s/it] 43%|████▎     | 33/76 [04:15<04:01,  5.61s/it] 45%|████▍     | 34/76 [04:24<04:41,  6.70s/it] 46%|████▌     | 35/76 [04:29<04:19,  6.32s/it] 47%|████▋     | 36/76 [04:32<03:32,  5.31s/it] 49%|████▊     | 37/76 [04:49<05:42,  8.77s/it] 50%|█████     | 38/76 [04:53<04:33,  7.21s/it] 51%|█████▏    | 39/76 [04:58<03:59,  6.48s/it] 53%|█████▎    | 40/76 [05:02<03:32,  5.89s/it] 54%|█████▍    | 41/76 [05:17<05:00,  8.60s/it] 55%|█████▌    | 42/76 [05:21<04:07,  7.27s/it] 57%|█████▋    | 43/76 [05:23<03:09,  5.75s/it] 58%|█████▊    | 44/76 [05:38<04:28,  8.39s/it] 59%|█████▉    | 45/76 [05:40<03:22,  6.53s/it] 61%|██████    | 46/76 [05:55<04:33,  9.13s/it] 62%|██████▏   | 47/76 [06:12<05:28, 11.33s/it] 63%|██████▎   | 48/76 [06:22<05:08, 11.01s/it] 64%|██████▍   | 49/76 [06:26<03:57,  8.80s/it] 66%|██████▌   | 50/76 [06:34<03:48,  8.78s/it] 67%|██████▋   | 51/76 [06:45<03:52,  9.32s/it] 68%|██████▊   | 52/76 [06:49<03:03,  7.66s/it] 70%|██████▉   | 53/76 [06:52<02:26,  6.36s/it] 71%|███████   | 54/76 [06:56<02:04,  5.65s/it] 72%|███████▏  | 55/76 [07:32<05:07, 14.64s/it] 74%|███████▎  | 56/76 [07:40<04:17, 12.86s/it] 75%|███████▌  | 57/76 [07:43<03:08,  9.93s/it] 76%|███████▋  | 58/76 [07:52<02:52,  9.57s/it] 78%|███████▊  | 59/76 [07:54<02:04,  7.34s/it] 79%|███████▉  | 60/76 [07:57<01:34,  5.91s/it] 80%|████████  | 61/76 [08:00<01:17,  5.17s/it] 82%|████████▏ | 62/76 [08:04<01:05,  4.67s/it] 83%|████████▎ | 63/76 [08:06<00:51,  3.97s/it] 84%|████████▍ | 64/76 [08:10<00:45,  3.82s/it] 86%|████████▌ | 65/76 [08:14<00:43,  3.97s/it] 87%|████████▋ | 66/76 [08:38<01:39,  9.97s/it] 88%|████████▊ | 67/76 [08:41<01:10,  7.83s/it] 89%|████████▉ | 68/76 [08:45<00:54,  6.83s/it] 91%|█████████ | 69/76 [08:48<00:38,  5.56s/it] 92%|█████████▏| 70/76 [08:53<00:32,  5.39s/it] 93%|█████████▎| 71/76 [09:10<00:44,  8.87s/it] 95%|█████████▍| 72/76 [09:14<00:29,  7.39s/it] 96%|█████████▌| 73/76 [09:20<00:20,  6.90s/it] 97%|█████████▋| 74/76 [09:28<00:14,  7.35s/it] 99%|█████████▊| 75/76 [09:31<00:05,  5.91s/it]100%|██████████| 76/76 [09:49<00:00,  9.75s/it]100%|██████████| 76/76 [09:49<00:00,  7.76s/it]
-litellm.APIConnectionError: [Errno 9] Bad file descriptor
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
-    data = self._network_stream.read(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 124, in read
-    with map_exceptions(exc_map):
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadError: [Errno 9] Bad file descriptor
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadError: [Errno 9] Bad file descriptor
- [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  589.8148622512817
-  0%|          | 0/80 [00:00<?, ?it/s]  1%|▏         | 1/80 [00:03<04:33,  3.47s/it]  2%|▎         | 2/80 [00:10<07:13,  5.55s/it]  4%|▍         | 3/80 [00:16<07:19,  5.71s/it]  5%|▌         | 4/80 [00:29<10:44,  8.48s/it]  6%|▋         | 5/80 [00:31<07:59,  6.40s/it]  8%|▊         | 6/80 [00:39<08:19,  6.76s/it]  9%|▉         | 7/80 [00:46<08:21,  6.87s/it] 10%|█         | 8/80 [00:50<07:19,  6.10s/it] 11%|█▏        | 9/80 [01:05<10:21,  8.76s/it] 12%|█▎        | 10/80 [01:11<09:12,  7.89s/it] 14%|█▍        | 11/80 [01:15<07:44,  6.73s/it] 15%|█▌        | 12/80 [01:34<11:51, 10.47s/it] 16%|█▋        | 13/80 [01:40<10:19,  9.25s/it] 18%|█▊        | 14/80 [01:47<09:17,  8.45s/it] 19%|█▉        | 15/80 [01:58<09:56,  9.18s/it] 20%|██        | 16/80 [02:02<08:06,  7.60s/it] 21%|██▏       | 17/80 [02:08<07:40,  7.32s/it] 22%|██▎       | 18/80 [02:13<06:48,  6.59s/it] 24%|██▍       | 19/80 [02:36<11:36, 11.42s/it] 25%|██▌       | 20/80 [02:43<09:55,  9.93s/it] 26%|██▋       | 21/80 [02:51<09:13,  9.37s/it] 28%|██▊       | 22/80 [02:56<08:02,  8.32s/it] 29%|██▉       | 23/80 [03:06<08:14,  8.67s/it] 30%|███       | 24/80 [03:18<09:04,  9.72s/it] 31%|███▏      | 25/80 [03:21<07:04,  7.71s/it] 32%|███▎      | 26/80 [03:25<05:46,  6.42s/it] 34%|███▍      | 27/80 [03:28<04:49,  5.47s/it] 35%|███▌      | 28/80 [03:34<04:55,  5.68s/it] 36%|███▋      | 29/80 [03:43<05:39,  6.66s/it] 38%|███▊      | 30/80 [03:45<04:27,  5.36s/it] 39%|███▉      | 31/80 [03:59<06:30,  7.97s/it] 40%|████      | 32/80 [04:02<05:03,  6.32s/it] 41%|████▏     | 33/80 [04:19<07:26,  9.51s/it] 42%|████▎     | 34/80 [04:29<07:24,  9.67s/it] 44%|████▍     | 35/80 [04:32<05:45,  7.68s/it] 45%|████▌     | 36/80 [04:37<05:09,  7.03s/it] 46%|████▋     | 37/80 [04:49<06:01,  8.41s/it] 48%|████▊     | 38/80 [05:03<07:08, 10.20s/it] 49%|████▉     | 39/80 [05:07<05:34,  8.16s/it] 50%|█████     | 40/80 [05:13<04:58,  7.47s/it] 51%|█████▏    | 41/80 [05:16<03:59,  6.14s/it] 52%|█████▎    | 42/80 [05:23<04:02,  6.37s/it] 54%|█████▍    | 43/80 [05:35<05:01,  8.16s/it] 55%|█████▌    | 44/80 [05:37<03:51,  6.42s/it] 56%|█████▋    | 45/80 [05:41<03:14,  5.56s/it] 57%|█████▊    | 46/80 [05:56<04:48,  8.48s/it] 59%|█████▉    | 47/80 [06:01<04:06,  7.45s/it] 60%|██████    | 48/80 [06:04<03:11,  5.99s/it] 61%|██████▏   | 49/80 [06:34<06:48, 13.18s/it] 62%|██████▎   | 50/80 [06:37<05:06, 10.22s/it] 64%|██████▍   | 51/80 [06:41<04:02,  8.38s/it] 65%|██████▌   | 52/80 [06:53<04:22,  9.38s/it] 66%|██████▋   | 53/80 [06:57<03:31,  7.83s/it] 68%|██████▊   | 54/80 [07:02<02:57,  6.84s/it] 69%|██████▉   | 55/80 [07:11<03:13,  7.73s/it] 70%|███████   | 56/80 [07:20<03:09,  7.89s/it] 71%|███████▏  | 57/80 [07:24<02:39,  6.95s/it] 72%|███████▎  | 58/80 [07:27<02:01,  5.52s/it] 74%|███████▍  | 59/80 [07:33<02:01,  5.81s/it] 75%|███████▌  | 60/80 [07:36<01:39,  4.97s/it] 76%|███████▋  | 61/80 [07:51<02:32,  8.01s/it] 78%|███████▊  | 62/80 [08:00<02:26,  8.12s/it] 79%|███████▉  | 63/80 [08:02<01:51,  6.53s/it] 80%|████████  | 64/80 [08:06<01:28,  5.56s/it] 81%|████████▏ | 65/80 [08:20<02:03,  8.25s/it] 82%|████████▎ | 66/80 [08:23<01:33,  6.65s/it] 84%|████████▍ | 67/80 [08:40<02:05,  9.69s/it] 85%|████████▌ | 68/80 [08:42<01:30,  7.53s/it] 86%|████████▋ | 69/80 [08:46<01:09,  6.34s/it] 88%|████████▊ | 70/80 [09:00<01:25,  8.55s/it] 89%|████████▉ | 71/80 [09:03<01:03,  7.09s/it] 90%|█████████ | 72/80 [09:22<01:24, 10.57s/it] 91%|█████████▏| 73/80 [09:24<00:56,  8.13s/it] 92%|█████████▎| 74/80 [09:32<00:47,  7.89s/it] 94%|█████████▍| 75/80 [09:38<00:37,  7.54s/it] 95%|█████████▌| 76/80 [10:01<00:48, 12.09s/it] 96%|█████████▋| 77/80 [10:08<00:31, 10.53s/it] 98%|█████████▊| 78/80 [10:11<00:16,  8.10s/it] 99%|█████████▉| 79/80 [10:18<00:08,  8.02s/it]100%|██████████| 80/80 [10:34<00:00, 10.29s/it]100%|██████████| 80/80 [10:34<00:00,  7.93s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  634.5117030143738
-  0%|          | 0/91 [00:00<?, ?it/s]  1%|          | 1/91 [00:03<05:08,  3.43s/it]  2%|▏         | 2/91 [00:07<05:39,  3.81s/it]  3%|▎         | 3/91 [00:11<05:45,  3.93s/it]  4%|▍         | 4/91 [00:33<15:54, 10.97s/it]  5%|▌         | 5/91 [00:35<11:20,  7.92s/it]  7%|▋         | 6/91 [00:38<08:34,  6.06s/it]  8%|▊         | 7/91 [00:46<09:23,  6.70s/it]  9%|▉         | 8/91 [00:50<08:06,  5.86s/it] 10%|▉         | 9/91 [01:06<12:33,  9.19s/it] 11%|█         | 10/91 [01:12<11:04,  8.20s/it] 12%|█▏        | 11/91 [01:15<08:36,  6.45s/it] 13%|█▎        | 12/91 [01:44<17:25, 13.24s/it] 14%|█▍        | 13/91 [01:49<14:15, 10.97s/it] 15%|█▌        | 14/91 [01:54<11:32,  9.00s/it] 16%|█▋        | 15/91 [01:58<09:27,  7.47s/it] 18%|█▊        | 16/91 [02:01<07:41,  6.16s/it] 19%|█▊        | 17/91 [02:05<06:39,  5.40s/it] 20%|█▉        | 18/91 [02:09<06:24,  5.27s/it] 21%|██        | 19/91 [02:25<10:07,  8.44s/it] 22%|██▏       | 20/91 [02:36<10:46,  9.11s/it] 23%|██▎       | 21/91 [02:44<10:09,  8.71s/it] 24%|██▍       | 22/91 [02:47<08:06,  7.06s/it] 25%|██▌       | 23/91 [02:50<06:38,  5.85s/it] 26%|██▋       | 24/91 [02:54<05:51,  5.25s/it] 27%|██▋       | 25/91 [03:07<08:29,  7.72s/it] 29%|██▊       | 26/91 [03:10<06:47,  6.27s/it] 30%|██▉       | 27/91 [03:27<10:04,  9.44s/it] 31%|███       | 28/91 [03:31<08:18,  7.92s/it] 32%|███▏      | 29/91 [03:34<06:33,  6.34s/it] 33%|███▎      | 30/91 [03:37<05:32,  5.45s/it] 34%|███▍      | 31/91 [03:52<08:14,  8.25s/it] 35%|███▌      | 32/91 [03:56<06:44,  6.85s/it] 36%|███▋      | 33/91 [04:16<10:28, 10.83s/it] 37%|███▋      | 34/91 [04:19<08:08,  8.57s/it] 38%|███▊      | 35/91 [04:22<06:28,  6.94s/it] 40%|███▉      | 36/91 [04:38<08:45,  9.56s/it] 41%|████      | 37/91 [04:42<07:05,  7.88s/it] 42%|████▏     | 38/91 [04:57<08:44,  9.89s/it] 43%|████▎     | 39/91 [05:13<10:11, 11.77s/it] 44%|████▍     | 40/91 [05:17<08:06,  9.53s/it] 45%|████▌     | 41/91 [05:23<07:03,  8.48s/it] 46%|████▌     | 42/91 [05:43<09:48, 12.02s/it]litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.APIConnectionError: [Errno 9] Bad file descriptor
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
-    data = self._network_stream.read(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 124, in read
-    with map_exceptions(exc_map):
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadError: [Errno 9] Bad file descriptor
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadError: [Errno 9] Bad file descriptor
- [sleep 10 seconds]
- 47%|████▋     | 43/91 [06:04<11:47, 14.75s/it] 48%|████▊     | 44/91 [06:07<08:42, 11.13s/it] 49%|████▉     | 45/91 [06:20<08:53, 11.60s/it] 51%|█████     | 46/91 [06:29<08:11, 10.92s/it] 52%|█████▏    | 47/91 [06:40<08:04, 11.01s/it] 53%|█████▎    | 48/91 [06:43<06:01,  8.40s/it] 54%|█████▍    | 49/91 [06:46<04:45,  6.80s/it] 55%|█████▍    | 50/91 [06:53<04:39,  6.83s/it] 56%|█████▌    | 51/91 [06:56<03:49,  5.73s/it] 57%|█████▋    | 52/91 [06:58<03:01,  4.66s/it] 58%|█████▊    | 53/91 [07:05<03:21,  5.29s/it] 59%|█████▉    | 54/91 [07:08<02:54,  4.70s/it] 60%|██████    | 55/91 [07:11<02:32,  4.24s/it] 62%|██████▏   | 56/91 [07:14<02:07,  3.65s/it] 63%|██████▎   | 57/91 [07:33<04:47,  8.45s/it] 64%|██████▎   | 58/91 [07:39<04:09,  7.56s/it] 65%|██████▍   | 59/91 [07:42<03:18,  6.20s/it] 66%|██████▌   | 60/91 [07:58<04:46,  9.25s/it] 67%|██████▋   | 61/91 [08:04<04:05,  8.18s/it] 68%|██████▊   | 62/91 [08:08<03:20,  6.93s/it] 69%|██████▉   | 63/91 [08:12<02:50,  6.11s/it] 70%|███████   | 64/91 [08:15<02:16,  5.06s/it] 71%|███████▏  | 65/91 [08:35<04:12,  9.73s/it] 73%|███████▎  | 66/91 [08:39<03:17,  7.91s/it] 74%|███████▎  | 67/91 [08:41<02:30,  6.27s/it] 75%|███████▍  | 68/91 [09:03<04:12, 10.98s/it] 76%|███████▌  | 69/91 [09:05<03:03,  8.34s/it] 77%|███████▋  | 70/91 [09:09<02:24,  6.88s/it] 78%|███████▊  | 71/91 [09:26<03:19,  9.99s/it] 79%|███████▉  | 72/91 [09:29<02:30,  7.91s/it] 80%|████████  | 73/91 [09:39<02:30,  8.38s/it] 81%|████████▏ | 74/91 [09:41<01:53,  6.70s/it] 82%|████████▏ | 75/91 [09:46<01:34,  5.91s/it] 84%|████████▎ | 76/91 [10:02<02:17,  9.17s/it] 85%|████████▍ | 77/91 [10:07<01:49,  7.82s/it] 86%|████████▌ | 78/91 [10:10<01:23,  6.40s/it] 87%|████████▋ | 79/91 [10:13<01:02,  5.24s/it] 88%|████████▊ | 80/91 [10:32<01:43,  9.39s/it] 89%|████████▉ | 81/91 [10:35<01:16,  7.61s/it] 90%|█████████ | 82/91 [10:39<00:58,  6.48s/it] 91%|█████████ | 83/91 [10:49<01:00,  7.58s/it] 92%|█████████▏| 84/91 [10:53<00:45,  6.54s/it] 93%|█████████▎| 85/91 [10:59<00:37,  6.28s/it] 95%|█████████▍| 86/91 [11:18<00:50, 10.12s/it] 96%|█████████▌| 87/91 [11:25<00:36,  9.10s/it] 97%|█████████▋| 88/91 [11:30<00:24,  8.10s/it] 98%|█████████▊| 89/91 [11:35<00:14,  7.04s/it] 99%|█████████▉| 90/91 [11:37<00:05,  5.61s/it]100%|██████████| 91/91 [11:39<00:00,  4.48s/it]100%|██████████| 91/91 [11:39<00:00,  7.69s/it]
-litellm.APIConnectionError: [Errno 9] Bad file descriptor
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
-    data = self._network_stream.read(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 124, in read
-    with map_exceptions(exc_map):
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadError: [Errno 9] Bad file descriptor
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadError: [Errno 9] Bad file descriptor
- [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  699.7230026721954
-  0%|          | 0/81 [00:00<?, ?it/s]  1%|          | 1/81 [00:25<33:33, 25.17s/it]  2%|▏         | 2/81 [00:28<16:33, 12.58s/it]  4%|▎         | 3/81 [00:33<11:30,  8.86s/it]  5%|▍         | 4/81 [00:38<09:32,  7.44s/it]  6%|▌         | 5/81 [00:43<08:28,  6.69s/it]  7%|▋         | 6/81 [00:49<08:01,  6.42s/it]  9%|▊         | 7/81 [01:24<19:27, 15.77s/it] 10%|▉         | 8/81 [01:37<17:55, 14.73s/it] 11%|█         | 9/81 [01:43<14:28, 12.07s/it] 12%|█▏        | 10/81 [01:57<15:03, 12.72s/it] 14%|█▎        | 11/81 [02:01<11:33,  9.90s/it] 15%|█▍        | 12/81 [02:17<13:27, 11.70s/it] 16%|█▌        | 13/81 [02:21<10:45,  9.49s/it] 17%|█▋        | 14/81 [02:28<09:39,  8.65s/it] 19%|█▊        | 15/81 [03:17<22:50, 20.76s/it] 20%|█▉        | 16/81 [03:23<17:49, 16.45s/it] 21%|██        | 17/81 [03:32<15:17, 14.34s/it] 22%|██▏       | 18/81 [03:36<11:41, 11.13s/it] 23%|██▎       | 19/81 [03:41<09:42,  9.39s/it] 25%|██▍       | 20/81 [03:47<08:30,  8.37s/it] 26%|██▌       | 21/81 [03:53<07:37,  7.63s/it] 27%|██▋       | 22/81 [04:16<12:01, 12.23s/it] 28%|██▊       | 23/81 [04:21<09:34,  9.91s/it] 30%|██▉       | 24/81 [04:28<08:35,  9.04s/it] 31%|███       | 25/81 [04:36<08:09,  8.74s/it] 32%|███▏      | 26/81 [04:40<06:52,  7.51s/it] 33%|███▎      | 27/81 [04:48<06:39,  7.40s/it] 35%|███▍      | 28/81 [04:51<05:34,  6.31s/it] 36%|███▌      | 29/81 [04:54<04:27,  5.15s/it] 37%|███▋      | 30/81 [05:01<04:55,  5.80s/it] 38%|███▊      | 31/81 [05:06<04:32,  5.45s/it] 40%|███▉      | 32/81 [05:08<03:46,  4.62s/it] 41%|████      | 33/81 [05:11<03:05,  3.86s/it] 42%|████▏     | 34/81 [05:14<02:55,  3.73s/it] 43%|████▎     | 35/81 [05:16<02:33,  3.34s/it] 44%|████▍     | 36/81 [05:19<02:20,  3.12s/it] 46%|████▌     | 37/81 [05:23<02:26,  3.33s/it] 47%|████▋     | 38/81 [05:26<02:24,  3.35s/it] 48%|████▊     | 39/81 [05:53<07:10, 10.25s/it] 49%|████▉     | 40/81 [05:56<05:40,  8.31s/it] 51%|█████     | 41/81 [06:04<05:18,  7.97s/it] 52%|█████▏    | 42/81 [06:10<04:54,  7.56s/it] 53%|█████▎    | 43/81 [06:13<03:49,  6.04s/it] 54%|█████▍    | 44/81 [06:20<03:53,  6.30s/it] 56%|█████▌    | 45/81 [06:38<05:55,  9.86s/it] 57%|█████▋    | 46/81 [06:45<05:17,  9.08s/it] 58%|█████▊    | 47/81 [06:49<04:14,  7.49s/it] 59%|█████▉    | 48/81 [07:02<05:05,  9.24s/it] 60%|██████    | 49/81 [07:07<04:09,  7.80s/it]litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.APIConnectionError: [Errno 9] Bad file descriptor
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
-    data = self._network_stream.read(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 124, in read
-    with map_exceptions(exc_map):
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadError: [Errno 9] Bad file descriptor
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadError: [Errno 9] Bad file descriptor
- [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.APIConnectionError: Server disconnected without sending a response.
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 238, in _receive_event
-    raise RemoteProtocolError(msg)
-httpcore.RemoteProtocolError: Server disconnected without sending a response.
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.RemoteProtocolError: Server disconnected without sending a response.
- [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
- 62%|██████▏   | 50/81 [07:28<06:13, 12.05s/it] 63%|██████▎   | 51/81 [07:36<05:21, 10.71s/it] 64%|██████▍   | 52/81 [07:39<04:06,  8.50s/it] 65%|██████▌   | 53/81 [07:45<03:32,  7.59s/it] 67%|██████▋   | 54/81 [08:01<04:33, 10.11s/it] 68%|██████▊   | 55/81 [08:06<03:45,  8.66s/it] 69%|██████▉   | 56/81 [08:11<03:07,  7.48s/it] 70%|███████   | 57/81 [08:33<04:41, 11.73s/it] 72%|███████▏  | 58/81 [08:37<03:38,  9.48s/it] 73%|███████▎  | 59/81 [08:43<03:05,  8.44s/it] 74%|███████▍  | 60/81 [08:50<02:52,  8.21s/it] 75%|███████▌  | 61/81 [08:54<02:16,  6.84s/it] 77%|███████▋  | 62/81 [09:00<02:04,  6.57s/it] 78%|███████▊  | 63/81 [09:03<01:36,  5.36s/it] 79%|███████▉  | 64/81 [09:32<03:35, 12.68s/it] 80%|████████  | 65/81 [09:36<02:38,  9.93s/it] 81%|████████▏ | 66/81 [09:39<01:57,  7.81s/it] 83%|████████▎ | 67/81 [09:46<01:47,  7.64s/it] 84%|████████▍ | 68/81 [09:48<01:18,  6.06s/it] 85%|████████▌ | 69/81 [09:55<01:14,  6.22s/it] 86%|████████▋ | 70/81 [10:35<02:59, 16.28s/it] 88%|████████▊ | 71/81 [10:41<02:14, 13.40s/it] 89%|████████▉ | 72/81 [10:44<01:31, 10.16s/it] 90%|█████████ | 73/81 [10:46<01:01,  7.74s/it] 91%|█████████▏| 74/81 [10:49<00:45,  6.44s/it] 93%|█████████▎| 75/81 [10:53<00:33,  5.60s/it] 94%|█████████▍| 76/81 [10:58<00:27,  5.45s/it] 95%|█████████▌| 77/81 [11:02<00:19,  4.95s/it] 96%|█████████▋| 78/81 [11:18<00:24,  8.13s/it] 98%|█████████▊| 79/81 [11:20<00:13,  6.58s/it] 99%|█████████▉| 80/81 [11:26<00:06,  6.25s/it]100%|██████████| 81/81 [12:01<00:00, 14.82s/it]100%|██████████| 81/81 [12:01<00:00,  8.90s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.APIConnectionError: [Errno 9] Bad file descriptor
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
-    data = self._network_stream.read(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 124, in read
-    with map_exceptions(exc_map):
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadError: [Errno 9] Bad file descriptor
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadError: [Errno 9] Bad file descriptor
- [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  721.3527081012726
-  0%|          | 0/71 [00:00<?, ?it/s]  1%|▏         | 1/71 [00:02<03:28,  2.98s/it]  3%|▎         | 2/71 [00:07<04:28,  3.89s/it]  4%|▍         | 3/71 [00:11<04:17,  3.78s/it]  6%|▌         | 4/71 [00:13<03:35,  3.21s/it]  7%|▋         | 5/71 [00:17<03:40,  3.35s/it]  8%|▊         | 6/71 [00:22<04:13,  3.90s/it] 10%|▉         | 7/71 [00:24<03:49,  3.58s/it] 11%|█▏        | 8/71 [00:40<07:50,  7.46s/it] 13%|█▎        | 9/71 [00:43<06:11,  5.99s/it] 14%|█▍        | 10/71 [00:57<08:31,  8.38s/it] 15%|█▌        | 11/71 [01:23<13:57, 13.97s/it] 17%|█▋        | 12/71 [01:29<11:08, 11.34s/it] 18%|█▊        | 13/71 [01:41<11:16, 11.67s/it] 20%|█▉        | 14/71 [01:47<09:21,  9.85s/it] 21%|██        | 15/71 [01:50<07:16,  7.79s/it] 23%|██▎       | 16/71 [01:54<06:02,  6.58s/it] 24%|██▍       | 17/71 [01:59<05:30,  6.13s/it] 25%|██▌       | 18/71 [02:02<04:35,  5.21s/it] 27%|██▋       | 19/71 [02:05<03:58,  4.59s/it] 28%|██▊       | 20/71 [02:35<10:27, 12.30s/it] 30%|██▉       | 21/71 [02:38<07:55,  9.50s/it] 31%|███       | 22/71 [02:43<06:44,  8.26s/it] 32%|███▏      | 23/71 [02:49<05:55,  7.41s/it] 34%|███▍      | 24/71 [02:51<04:36,  5.87s/it] 35%|███▌      | 25/71 [02:54<03:41,  4.82s/it] 37%|███▋      | 26/71 [03:15<07:16,  9.70s/it] 38%|███▊      | 27/71 [03:20<06:15,  8.53s/it] 39%|███▉      | 28/71 [03:25<05:13,  7.29s/it] 41%|████      | 29/71 [03:27<04:01,  5.76s/it] 42%|████▏     | 30/71 [03:42<05:48,  8.50s/it] 44%|████▎     | 31/71 [03:45<04:30,  6.76s/it] 45%|████▌     | 32/71 [04:03<06:38, 10.23s/it] 46%|████▋     | 33/71 [04:08<05:29,  8.68s/it] 48%|████▊     | 34/71 [04:15<05:05,  8.25s/it] 49%|████▉     | 35/71 [04:19<04:04,  6.79s/it] 51%|█████     | 36/71 [04:40<06:26, 11.05s/it] 52%|█████▏    | 37/71 [04:43<04:57,  8.75s/it] 54%|█████▎    | 38/71 [05:05<07:04, 12.85s/it] 55%|█████▍    | 39/71 [05:10<05:35, 10.47s/it] 56%|█████▋    | 40/71 [05:17<04:49,  9.34s/it] 58%|█████▊    | 41/71 [05:24<04:18,  8.60s/it] 59%|█████▉    | 42/71 [05:28<03:31,  7.29s/it] 61%|██████    | 43/71 [05:37<03:36,  7.72s/it] 62%|██████▏   | 44/71 [05:47<03:49,  8.52s/it] 63%|██████▎   | 45/71 [05:51<03:07,  7.20s/it] 65%|██████▍   | 46/71 [05:55<02:34,  6.20s/it] 66%|██████▌   | 47/71 [05:57<01:59,  4.99s/it] 68%|██████▊   | 48/71 [06:01<01:46,  4.62s/it] 69%|██████▉   | 49/71 [06:15<02:42,  7.38s/it] 70%|███████   | 50/71 [06:19<02:11,  6.24s/it] 72%|███████▏  | 51/71 [06:40<03:37, 10.87s/it] 73%|███████▎  | 52/71 [06:45<02:54,  9.18s/it] 75%|███████▍  | 53/71 [06:49<02:13,  7.40s/it] 76%|███████▌  | 54/71 [06:57<02:09,  7.63s/it] 77%|███████▋  | 55/71 [07:03<01:53,  7.12s/it] 79%|███████▉  | 56/71 [07:07<01:32,  6.14s/it] 80%|████████  | 57/71 [07:23<02:10,  9.30s/it] 82%|████████▏ | 58/71 [07:26<01:33,  7.21s/it] 83%|████████▎ | 59/71 [07:39<01:49,  9.11s/it] 85%|████████▍ | 60/71 [07:43<01:21,  7.41s/it] 86%|████████▌ | 61/71 [07:45<00:59,  5.92s/it] 87%|████████▋ | 62/71 [08:02<01:23,  9.24s/it] 89%|████████▊ | 63/71 [08:05<00:59,  7.44s/it] 90%|█████████ | 64/71 [08:09<00:44,  6.31s/it] 92%|█████████▏| 65/71 [08:23<00:51,  8.60s/it] 93%|█████████▎| 66/71 [08:26<00:34,  6.83s/it] 94%|█████████▍| 67/71 [08:50<00:48, 12.07s/it] 96%|█████████▌| 68/71 [09:01<00:35, 11.69s/it] 97%|█████████▋| 69/71 [09:05<00:19,  9.52s/it] 99%|█████████▊| 70/71 [09:09<00:07,  7.79s/it]100%|██████████| 71/71 [09:11<00:00,  5.99s/it]100%|██████████| 71/71 [09:11<00:00,  7.76s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  551.3204374313354
-  0%|          | 0/97 [00:00<?, ?it/s]  1%|          | 1/97 [00:03<06:13,  3.89s/it]  2%|▏         | 2/97 [00:26<23:57, 15.13s/it]  3%|▎         | 3/97 [00:33<17:54, 11.43s/it]  4%|▍         | 4/97 [00:39<13:56,  9.00s/it]  5%|▌         | 5/97 [00:42<10:50,  7.07s/it]  6%|▌         | 6/97 [00:48<10:03,  6.63s/it]  7%|▋         | 7/97 [00:51<07:59,  5.32s/it]  8%|▊         | 8/97 [00:55<07:32,  5.08s/it]  9%|▉         | 9/97 [01:13<13:07,  8.95s/it] 10%|█         | 10/97 [01:17<10:42,  7.38s/it] 11%|█▏        | 11/97 [01:27<11:57,  8.34s/it] 12%|█▏        | 12/97 [01:33<10:37,  7.50s/it] 13%|█▎        | 13/97 [01:40<10:26,  7.46s/it] 14%|█▍        | 14/97 [01:44<09:02,  6.54s/it] 15%|█▌        | 15/97 [02:04<14:12, 10.40s/it] 16%|█▋        | 16/97 [02:08<11:22,  8.43s/it] 18%|█▊        | 17/97 [02:10<08:49,  6.62s/it] 19%|█▊        | 18/97 [02:27<12:53,  9.80s/it] 20%|█▉        | 19/97 [02:33<11:02,  8.49s/it] 21%|██        | 20/97 [02:35<08:35,  6.69s/it] 22%|██▏       | 21/97 [03:00<15:27, 12.20s/it] 23%|██▎       | 22/97 [03:07<13:05, 10.47s/it] 24%|██▎       | 23/97 [03:10<10:05,  8.18s/it] 25%|██▍       | 24/97 [03:15<09:07,  7.50s/it] 26%|██▌       | 25/97 [03:21<08:25,  7.02s/it] 27%|██▋       | 26/97 [03:37<11:20,  9.59s/it] 28%|██▊       | 27/97 [03:46<10:51,  9.31s/it] 29%|██▉       | 28/97 [03:50<09:01,  7.84s/it] 30%|██▉       | 29/97 [03:55<07:58,  7.04s/it] 31%|███       | 30/97 [03:59<06:48,  6.10s/it] 32%|███▏      | 31/97 [04:15<10:00,  9.10s/it] 33%|███▎      | 32/97 [04:43<16:01, 14.79s/it] 34%|███▍      | 33/97 [04:48<12:36, 11.83s/it] 35%|███▌      | 34/97 [04:54<10:38, 10.14s/it] 36%|███▌      | 35/97 [05:04<10:26, 10.11s/it] 37%|███▋      | 36/97 [05:11<09:03,  8.91s/it] 38%|███▊      | 37/97 [05:14<07:17,  7.30s/it] 39%|███▉      | 38/97 [05:19<06:36,  6.72s/it] 40%|████      | 39/97 [05:29<07:26,  7.70s/it] 41%|████      | 40/97 [05:40<08:06,  8.54s/it] 42%|████▏     | 41/97 [05:44<06:38,  7.12s/it] 43%|████▎     | 42/97 [05:47<05:20,  5.83s/it] 44%|████▍     | 43/97 [05:49<04:15,  4.74s/it] 45%|████▌     | 44/97 [05:54<04:12,  4.77s/it] 46%|████▋     | 45/97 [05:57<03:46,  4.36s/it] 47%|████▋     | 46/97 [06:10<06:00,  7.06s/it] 48%|████▊     | 47/97 [06:13<04:41,  5.64s/it] 49%|████▉     | 48/97 [06:29<07:08,  8.74s/it] 51%|█████     | 49/97 [06:36<06:45,  8.45s/it] 52%|█████▏    | 50/97 [06:40<05:30,  7.04s/it] 53%|█████▎    | 51/97 [06:48<05:30,  7.18s/it] 54%|█████▎    | 52/97 [06:55<05:24,  7.20s/it] 55%|█████▍    | 53/97 [06:57<04:11,  5.71s/it] 56%|█████▌    | 54/97 [07:13<06:21,  8.87s/it] 57%|█████▋    | 55/97 [07:19<05:25,  7.75s/it] 58%|█████▊    | 56/97 [07:24<04:47,  7.00s/it] 59%|█████▉    | 57/97 [07:45<07:28, 11.21s/it] 60%|█████▉    | 58/97 [07:49<05:49,  8.97s/it] 61%|██████    | 59/97 [08:06<07:22, 11.63s/it] 62%|██████▏   | 60/97 [08:09<05:34,  9.04s/it] 63%|██████▎   | 61/97 [08:15<04:46,  7.97s/it] 64%|██████▍   | 62/97 [08:20<04:11,  7.18s/it] 65%|██████▍   | 63/97 [08:23<03:18,  5.85s/it] 66%|██████▌   | 64/97 [08:26<02:41,  4.90s/it] 67%|██████▋   | 65/97 [08:50<05:38, 10.59s/it] 68%|██████▊   | 66/97 [08:53<04:23,  8.50s/it] 69%|██████▉   | 67/97 [08:55<03:16,  6.56s/it] 70%|███████   | 68/97 [08:58<02:40,  5.53s/it] 71%|███████   | 69/97 [09:14<03:57,  8.47s/it] 72%|███████▏  | 70/97 [09:17<03:06,  6.91s/it] 73%|███████▎  | 71/97 [09:25<03:08,  7.24s/it] 74%|███████▍  | 72/97 [09:37<03:37,  8.69s/it] 75%|███████▌  | 73/97 [09:43<03:09,  7.88s/it] 76%|███████▋  | 74/97 [09:46<02:24,  6.28s/it] 77%|███████▋  | 75/97 [10:02<03:23,  9.26s/it] 78%|███████▊  | 76/97 [10:11<03:11,  9.13s/it] 79%|███████▉  | 77/97 [10:13<02:21,  7.06s/it] 80%|████████  | 78/97 [10:18<02:05,  6.60s/it] 81%|████████▏ | 79/97 [10:32<02:38,  8.78s/it] 82%|████████▏ | 80/97 [10:36<02:02,  7.18s/it] 84%|████████▎ | 81/97 [10:39<01:37,  6.08s/it] 85%|████████▍ | 82/97 [11:03<02:52, 11.51s/it] 86%|████████▌ | 83/97 [11:07<02:06,  9.05s/it] 87%|████████▋ | 84/97 [11:14<01:50,  8.51s/it] 88%|████████▊ | 85/97 [11:18<01:27,  7.32s/it] 89%|████████▊ | 86/97 [11:26<01:21,  7.37s/it] 90%|████████▉ | 87/97 [11:33<01:13,  7.37s/it] 91%|█████████ | 88/97 [11:39<01:03,  7.00s/it] 92%|█████████▏| 89/97 [12:14<02:01, 15.20s/it] 93%|█████████▎| 90/97 [12:24<01:35, 13.59s/it] 94%|█████████▍| 91/97 [12:27<01:02, 10.42s/it] 95%|█████████▍| 92/97 [12:29<00:40,  8.00s/it] 96%|█████████▌| 93/97 [12:31<00:24,  6.25s/it] 97%|█████████▋| 94/97 [12:39<00:19,  6.61s/it] 98%|█████████▊| 95/97 [12:49<00:15,  7.77s/it] 99%|█████████▉| 96/97 [12:52<00:06,  6.18s/it]100%|██████████| 97/97 [12:56<00:00,  5.72s/it]100%|██████████| 97/97 [12:56<00:00,  8.01s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  776.792218208313
-  0%|          | 0/89 [00:00<?, ?it/s]  1%|          | 1/89 [00:02<03:48,  2.60s/it]  2%|▏         | 2/89 [00:31<25:54, 17.87s/it]  3%|▎         | 3/89 [00:34<15:56, 11.13s/it]  4%|▍         | 4/89 [00:39<12:16,  8.67s/it]  6%|▌         | 5/89 [00:41<09:02,  6.45s/it]  7%|▋         | 6/89 [01:04<16:25, 11.87s/it]  8%|▊         | 7/89 [01:10<13:48, 10.10s/it]  9%|▉         | 8/89 [01:14<11:11,  8.29s/it] 10%|█         | 9/89 [01:38<17:14, 12.93s/it] 11%|█         | 10/89 [01:42<13:43, 10.42s/it] 12%|█▏        | 11/89 [01:47<11:11,  8.61s/it] 13%|█▎        | 12/89 [01:50<08:48,  6.87s/it] 15%|█▍        | 13/89 [02:17<16:29, 13.01s/it] 16%|█▌        | 14/89 [02:21<12:51, 10.29s/it] 17%|█▋        | 15/89 [02:29<11:42,  9.49s/it] 18%|█▊        | 16/89 [02:37<11:04,  9.11s/it] 19%|█▉        | 17/89 [02:39<08:32,  7.12s/it] 20%|██        | 18/89 [02:43<07:10,  6.06s/it] 21%|██▏       | 19/89 [02:59<10:39,  9.13s/it] 22%|██▏       | 20/89 [03:03<08:34,  7.46s/it] 24%|██▎       | 21/89 [03:07<07:27,  6.58s/it] 25%|██▍       | 22/89 [03:26<11:19, 10.14s/it] 26%|██▌       | 23/89 [03:35<10:50,  9.86s/it] 27%|██▋       | 24/89 [03:41<09:33,  8.82s/it] 28%|██▊       | 25/89 [03:54<10:39,  9.99s/it] 29%|██▉       | 26/89 [04:03<10:15,  9.77s/it] 30%|███       | 27/89 [04:06<07:46,  7.52s/it] 31%|███▏      | 28/89 [04:22<10:19, 10.16s/it] 33%|███▎      | 29/89 [04:30<09:31,  9.52s/it] 34%|███▎      | 30/89 [05:14<19:33, 19.89s/it] 35%|███▍      | 31/89 [05:22<15:43, 16.27s/it] 36%|███▌      | 32/89 [05:26<12:07, 12.77s/it] 37%|███▋      | 33/89 [05:32<09:50, 10.54s/it] 38%|███▊      | 34/89 [05:39<08:51,  9.67s/it] 39%|███▉      | 35/89 [05:45<07:42,  8.56s/it] 40%|████      | 36/89 [05:54<07:42,  8.73s/it] 42%|████▏     | 37/89 [05:59<06:27,  7.46s/it] 43%|████▎     | 38/89 [06:01<05:04,  5.98s/it] 44%|████▍     | 39/89 [06:08<05:06,  6.12s/it] 45%|████▍     | 40/89 [06:16<05:33,  6.80s/it] 46%|████▌     | 41/89 [06:20<04:43,  5.90s/it] 47%|████▋     | 42/89 [06:36<06:57,  8.88s/it] 48%|████▊     | 43/89 [06:39<05:23,  7.03s/it] 49%|████▉     | 44/89 [06:53<06:59,  9.33s/it] 51%|█████     | 45/89 [06:56<05:26,  7.41s/it] 52%|█████▏    | 46/89 [07:10<06:43,  9.38s/it] 53%|█████▎    | 47/89 [07:13<05:11,  7.43s/it] 54%|█████▍    | 48/89 [07:34<07:54, 11.58s/it] 55%|█████▌    | 49/89 [07:40<06:34,  9.87s/it] 56%|█████▌    | 50/89 [07:48<06:00,  9.26s/it] 57%|█████▋    | 51/89 [07:51<04:36,  7.27s/it] 58%|█████▊    | 52/89 [08:16<07:45, 12.57s/it] 60%|█████▉    | 53/89 [08:20<06:08, 10.24s/it] 61%|██████    | 54/89 [08:26<05:13,  8.97s/it] 62%|██████▏   | 55/89 [08:29<04:03,  7.17s/it] 63%|██████▎   | 56/89 [08:33<03:22,  6.14s/it] 64%|██████▍   | 57/89 [08:57<06:09, 11.54s/it] 65%|██████▌   | 58/89 [09:00<04:31,  8.77s/it] 66%|██████▋   | 59/89 [09:02<03:27,  6.91s/it] 67%|██████▋   | 60/89 [09:34<06:54, 14.28s/it] 69%|██████▊   | 61/89 [09:36<04:59, 10.69s/it] 70%|██████▉   | 62/89 [09:39<03:44,  8.33s/it] 71%|███████   | 63/89 [09:43<03:00,  6.95s/it] 72%|███████▏  | 64/89 [09:58<03:59,  9.58s/it] 73%|███████▎  | 65/89 [10:04<03:21,  8.38s/it] 74%|███████▍  | 66/89 [10:17<03:44,  9.77s/it] 75%|███████▌  | 67/89 [10:26<03:30,  9.59s/it] 76%|███████▋  | 68/89 [10:33<03:03,  8.71s/it] 78%|███████▊  | 69/89 [10:37<02:30,  7.54s/it] 79%|███████▊  | 70/89 [10:41<02:02,  6.42s/it] 80%|███████▉  | 71/89 [10:55<02:36,  8.72s/it] 81%|████████  | 72/89 [10:58<01:58,  6.99s/it] 82%|████████▏ | 73/89 [11:24<03:22, 12.67s/it] 83%|████████▎ | 74/89 [11:43<03:36, 14.41s/it] 84%|████████▍ | 75/89 [11:46<02:34, 11.03s/it] 85%|████████▌ | 76/89 [11:48<01:49,  8.39s/it] 87%|████████▋ | 77/89 [11:55<01:35,  7.95s/it] 88%|████████▊ | 78/89 [12:03<01:26,  7.87s/it] 89%|████████▉ | 79/89 [12:08<01:11,  7.20s/it] 90%|████████▉ | 80/89 [12:14<01:00,  6.76s/it] 91%|█████████ | 81/89 [12:20<00:51,  6.48s/it] 92%|█████████▏| 82/89 [12:40<01:13, 10.57s/it] 93%|█████████▎| 83/89 [12:46<00:55,  9.23s/it] 94%|█████████▍| 84/89 [12:50<00:38,  7.73s/it] 96%|█████████▌| 85/89 [12:54<00:25,  6.47s/it] 97%|█████████▋| 86/89 [13:14<00:31, 10.60s/it] 98%|█████████▊| 87/89 [13:17<00:16,  8.18s/it] 99%|█████████▉| 88/89 [13:22<00:07,  7.27s/it]100%|██████████| 89/89 [13:35<00:00,  9.06s/it]100%|██████████| 89/89 [13:35<00:00,  9.16s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  815.5990009307861
-  0%|          | 0/96 [00:00<?, ?it/s]  1%|          | 1/96 [00:16<26:15, 16.58s/it]  2%|▏         | 2/96 [00:24<18:12, 11.62s/it]  3%|▎         | 3/96 [00:33<15:54, 10.26s/it]  4%|▍         | 4/96 [00:35<11:03,  7.21s/it]  5%|▌         | 5/96 [00:39<09:01,  5.95s/it]  6%|▋         | 6/96 [01:12<22:52, 15.25s/it]  7%|▋         | 7/96 [01:18<17:59, 12.13s/it]  8%|▊         | 8/96 [01:37<20:48, 14.18s/it]  9%|▉         | 9/96 [01:40<15:42, 10.83s/it] 10%|█         | 10/96 [01:43<12:01,  8.39s/it] 11%|█▏        | 11/96 [01:48<10:27,  7.38s/it] 12%|█▎        | 12/96 [01:52<08:44,  6.24s/it] 14%|█▎        | 13/96 [02:20<17:50, 12.90s/it] 15%|█▍        | 14/96 [02:22<13:13,  9.68s/it] 16%|█▌        | 15/96 [02:37<15:05, 11.17s/it] 17%|█▋        | 16/96 [02:49<15:19, 11.49s/it] 18%|█▊        | 17/96 [02:57<13:33, 10.30s/it] 19%|█▉        | 18/96 [03:14<16:11, 12.45s/it] 20%|█▉        | 19/96 [03:17<12:11,  9.49s/it] 21%|██        | 20/96 [03:19<09:14,  7.30s/it] 22%|██▏       | 21/96 [03:21<07:19,  5.85s/it] 23%|██▎       | 22/96 [03:25<06:22,  5.17s/it] 24%|██▍       | 23/96 [03:34<07:44,  6.36s/it] 25%|██▌       | 24/96 [03:39<07:15,  6.05s/it] 26%|██▌       | 25/96 [03:43<06:10,  5.21s/it] 27%|██▋       | 26/96 [04:00<10:22,  8.89s/it] 28%|██▊       | 27/96 [04:04<08:22,  7.29s/it] 29%|██▉       | 28/96 [04:24<12:41, 11.20s/it] 30%|███       | 29/96 [04:28<10:09,  9.10s/it] 31%|███▏      | 30/96 [04:31<07:58,  7.24s/it] 32%|███▏      | 31/96 [04:49<11:22, 10.51s/it] 33%|███▎      | 32/96 [04:52<08:35,  8.06s/it] 34%|███▍      | 33/96 [05:05<09:59,  9.51s/it] 35%|███▌      | 34/96 [05:10<08:34,  8.30s/it] 36%|███▋      | 35/96 [05:14<07:09,  7.04s/it] 38%|███▊      | 36/96 [05:29<09:29,  9.50s/it] 39%|███▊      | 37/96 [05:36<08:31,  8.67s/it] 40%|███▉      | 38/96 [05:56<11:35, 11.98s/it] 41%|████      | 39/96 [06:11<12:14, 12.89s/it] 42%|████▏     | 40/96 [06:15<09:32, 10.22s/it] 43%|████▎     | 41/96 [06:23<08:47,  9.59s/it] 44%|████▍     | 42/96 [06:27<07:04,  7.86s/it] 45%|████▍     | 43/96 [06:29<05:30,  6.24s/it] 46%|████▌     | 44/96 [06:52<09:37, 11.10s/it] 47%|████▋     | 45/96 [06:58<08:14,  9.69s/it] 48%|████▊     | 46/96 [07:02<06:44,  8.10s/it] 49%|████▉     | 47/96 [07:08<05:53,  7.21s/it] 50%|█████     | 48/96 [07:41<12:02, 15.04s/it] 51%|█████     | 49/96 [07:46<09:22, 11.96s/it] 52%|█████▏    | 50/96 [07:57<09:01, 11.77s/it] 53%|█████▎    | 51/96 [08:00<06:51,  9.15s/it] 54%|█████▍    | 52/96 [08:05<05:51,  7.99s/it] 55%|█████▌    | 53/96 [08:10<05:04,  7.07s/it] 56%|█████▋    | 54/96 [08:15<04:22,  6.24s/it] 57%|█████▋    | 55/96 [08:20<04:09,  6.09s/it] 58%|█████▊    | 56/96 [08:37<06:09,  9.24s/it] 59%|█████▉    | 57/96 [08:44<05:35,  8.60s/it] 60%|██████    | 58/96 [08:52<05:20,  8.43s/it] 61%|██████▏   | 59/96 [08:56<04:27,  7.24s/it] 62%|██████▎   | 60/96 [09:11<05:34,  9.29s/it] 64%|██████▎   | 61/96 [09:16<04:42,  8.08s/it] 65%|██████▍   | 62/96 [09:30<05:35,  9.88s/it] 66%|██████▌   | 63/96 [09:42<05:46, 10.51s/it] 67%|██████▋   | 64/96 [09:44<04:16,  8.03s/it] 68%|██████▊   | 65/96 [10:05<06:04, 11.76s/it] 69%|██████▉   | 66/96 [10:07<04:31,  9.04s/it] 70%|██████▉   | 67/96 [10:13<03:54,  8.08s/it] 71%|███████   | 68/96 [10:16<03:03,  6.56s/it] 72%|███████▏  | 69/96 [10:39<05:09, 11.46s/it] 73%|███████▎  | 70/96 [10:41<03:48,  8.77s/it] 74%|███████▍  | 71/96 [10:50<03:35,  8.63s/it] 75%|███████▌  | 72/96 [11:17<05:42, 14.26s/it] 76%|███████▌  | 73/96 [11:21<04:18, 11.25s/it] 77%|███████▋  | 74/96 [11:27<03:29,  9.52s/it] 78%|███████▊  | 75/96 [11:32<02:53,  8.26s/it] 79%|███████▉  | 76/96 [11:55<04:11, 12.56s/it] 80%|████████  | 77/96 [12:00<03:18, 10.46s/it] 81%|████████▏ | 78/96 [12:05<02:36,  8.72s/it] 82%|████████▏ | 79/96 [12:10<02:07,  7.50s/it] 83%|████████▎ | 80/96 [12:36<03:30, 13.17s/it] 84%|████████▍ | 81/96 [12:39<02:31, 10.08s/it] 85%|████████▌ | 82/96 [12:46<02:08,  9.17s/it] 86%|████████▋ | 83/96 [12:51<01:43,  7.95s/it] 88%|████████▊ | 84/96 [12:58<01:32,  7.67s/it] 89%|████████▊ | 85/96 [13:10<01:38,  8.98s/it] 90%|████████▉ | 86/96 [13:18<01:26,  8.62s/it] 91%|█████████ | 87/96 [13:24<01:09,  7.72s/it] 92%|█████████▏| 88/96 [13:28<00:54,  6.85s/it] 93%|█████████▎| 89/96 [13:42<01:01,  8.84s/it] 94%|█████████▍| 90/96 [13:58<01:06, 11.10s/it] 95%|█████████▍| 91/96 [14:10<00:56, 11.21s/it] 96%|█████████▌| 92/96 [14:30<00:56, 14.08s/it] 97%|█████████▋| 93/96 [14:47<00:44, 14.73s/it] 98%|█████████▊| 94/96 [14:50<00:22, 11.42s/it] 99%|█████████▉| 95/96 [14:53<00:08,  8.83s/it]100%|██████████| 96/96 [14:55<00:00,  6.72s/it]100%|██████████| 96/96 [14:55<00:00,  9.33s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.APIConnectionError: [Errno 9] Bad file descriptor
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
-    data = self._network_stream.read(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 124, in read
-    with map_exceptions(exc_map):
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadError: [Errno 9] Bad file descriptor
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadError: [Errno 9] Bad file descriptor
- [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  895.5872395038605
-  0%|          | 0/68 [00:00<?, ?it/s]  1%|▏         | 1/68 [00:02<02:48,  2.52s/it]  3%|▎         | 2/68 [00:09<05:52,  5.34s/it]  4%|▍         | 3/68 [00:12<04:39,  4.30s/it]  6%|▌         | 4/68 [00:35<12:13, 11.46s/it]  7%|▋         | 5/68 [00:42<10:27,  9.96s/it]  9%|▉         | 6/68 [00:47<08:38,  8.36s/it] 10%|█         | 7/68 [00:53<07:30,  7.39s/it] 12%|█▏        | 8/68 [00:57<06:23,  6.40s/it] 13%|█▎        | 9/68 [01:04<06:27,  6.57s/it] 15%|█▍        | 10/68 [01:08<05:29,  5.68s/it] 16%|█▌        | 11/68 [01:12<04:55,  5.18s/it] 18%|█▊        | 12/68 [01:14<04:08,  4.44s/it] 19%|█▉        | 13/68 [01:19<04:08,  4.51s/it] 21%|██        | 14/68 [01:52<11:49, 13.13s/it] 22%|██▏       | 15/68 [01:58<09:42, 11.00s/it] 24%|██▎       | 16/68 [02:02<07:35,  8.76s/it] 25%|██▌       | 17/68 [02:04<05:51,  6.89s/it] 26%|██▋       | 18/68 [02:09<05:11,  6.23s/it] 28%|██▊       | 19/68 [02:13<04:26,  5.44s/it] 29%|██▉       | 20/68 [02:15<03:37,  4.54s/it] 31%|███       | 21/68 [02:29<05:45,  7.35s/it] 32%|███▏      | 22/68 [02:34<05:04,  6.61s/it] 34%|███▍      | 23/68 [02:53<07:48, 10.42s/it] 35%|███▌      | 24/68 [02:58<06:18,  8.61s/it] 37%|███▋      | 25/68 [03:03<05:29,  7.66s/it] 38%|███▊      | 26/68 [03:06<04:25,  6.32s/it] 40%|███▉      | 27/68 [03:15<04:43,  6.92s/it] 41%|████      | 28/68 [03:29<06:11,  9.29s/it] 43%|████▎     | 29/68 [03:41<06:32, 10.05s/it] 44%|████▍     | 30/68 [03:45<05:09,  8.14s/it] 46%|████▌     | 31/68 [03:47<03:54,  6.35s/it] 47%|████▋     | 32/68 [04:03<05:35,  9.32s/it] 49%|████▊     | 33/68 [04:21<06:51, 11.74s/it] 50%|█████     | 34/68 [04:24<05:17,  9.33s/it] 51%|█████▏    | 35/68 [04:26<03:54,  7.11s/it] 53%|█████▎    | 36/68 [04:30<03:18,  6.21s/it] 54%|█████▍    | 37/68 [04:36<03:05,  5.97s/it] 56%|█████▌    | 38/68 [04:44<03:17,  6.59s/it] 57%|█████▋    | 39/68 [04:47<02:38,  5.46s/it] 59%|█████▉    | 40/68 [04:53<02:37,  5.64s/it] 60%|██████    | 41/68 [05:09<03:58,  8.83s/it] 62%|██████▏   | 42/68 [05:21<04:17,  9.91s/it] 63%|██████▎   | 43/68 [05:26<03:26,  8.25s/it] 65%|██████▍   | 44/68 [05:32<02:59,  7.48s/it] 66%|██████▌   | 45/68 [05:36<02:31,  6.60s/it] 68%|██████▊   | 46/68 [05:50<03:15,  8.89s/it] 69%|██████▉   | 47/68 [05:56<02:47,  7.96s/it] 71%|███████   | 48/68 [05:59<02:08,  6.42s/it] 72%|███████▏  | 49/68 [06:05<01:57,  6.20s/it] 74%|███████▎  | 50/68 [06:11<01:50,  6.12s/it] 75%|███████▌  | 51/68 [06:30<02:50, 10.01s/it] 76%|███████▋  | 52/68 [06:36<02:23,  8.99s/it] 78%|███████▊  | 53/68 [06:41<01:55,  7.69s/it] 79%|███████▉  | 54/68 [06:48<01:45,  7.55s/it] 81%|████████  | 55/68 [06:52<01:23,  6.40s/it] 82%|████████▏ | 56/68 [06:55<01:04,  5.34s/it] 84%|████████▍ | 57/68 [07:06<01:19,  7.20s/it] 85%|████████▌ | 58/68 [07:10<01:00,  6.09s/it] 87%|████████▋ | 59/68 [07:13<00:46,  5.18s/it] 88%|████████▊ | 60/68 [07:15<00:34,  4.32s/it] 90%|████████▉ | 61/68 [07:29<00:49,  7.12s/it] 91%|█████████ | 62/68 [07:32<00:35,  5.87s/it] 93%|█████████▎| 63/68 [07:46<00:42,  8.49s/it] 94%|█████████▍| 64/68 [07:53<00:31,  7.88s/it] 96%|█████████▌| 65/68 [07:59<00:22,  7.47s/it] 97%|█████████▋| 66/68 [08:10<00:17,  8.53s/it] 99%|█████████▊| 67/68 [08:15<00:07,  7.29s/it]100%|██████████| 68/68 [08:16<00:00,  5.51s/it]100%|██████████| 68/68 [08:16<00:00,  7.30s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  496.63121700286865
-  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:05<04:27,  5.46s/it]  4%|▍         | 2/50 [00:12<05:06,  6.38s/it]  6%|▌         | 3/50 [00:15<03:37,  4.62s/it]  8%|▊         | 4/50 [00:39<09:29, 12.38s/it] 10%|█         | 5/50 [00:48<08:33, 11.41s/it] 12%|█▏        | 6/50 [00:50<06:01,  8.21s/it] 14%|█▍        | 7/50 [00:55<04:56,  6.90s/it] 16%|█▌        | 8/50 [01:04<05:17,  7.57s/it] 18%|█▊        | 9/50 [01:07<04:19,  6.33s/it] 20%|██        | 10/50 [01:12<03:53,  5.84s/it] 22%|██▏       | 11/50 [01:15<03:17,  5.06s/it] 24%|██▍       | 12/50 [01:30<05:01,  7.93s/it] 26%|██▌       | 13/50 [01:32<03:54,  6.33s/it] 28%|██▊       | 14/50 [01:37<03:28,  5.80s/it] 30%|███       | 15/50 [01:40<02:55,  5.01s/it] 32%|███▏      | 16/50 [01:42<02:21,  4.15s/it] 34%|███▍      | 17/50 [01:47<02:23,  4.34s/it] 36%|███▌      | 18/50 [02:06<04:41,  8.79s/it] 38%|███▊      | 19/50 [02:15<04:31,  8.76s/it] 40%|████      | 20/50 [02:21<03:59,  7.97s/it] 42%|████▏     | 21/50 [02:30<03:58,  8.24s/it] 44%|████▍     | 22/50 [02:32<03:00,  6.44s/it] 46%|████▌     | 23/50 [02:37<02:42,  6.02s/it] 48%|████▊     | 24/50 [02:40<02:09,  4.96s/it] 50%|█████     | 25/50 [02:42<01:44,  4.20s/it] 52%|█████▏    | 26/50 [03:04<03:50,  9.59s/it] 54%|█████▍    | 27/50 [03:11<03:21,  8.78s/it] 56%|█████▌    | 28/50 [03:13<02:28,  6.77s/it] 58%|█████▊    | 29/50 [03:18<02:07,  6.05s/it] 60%|██████    | 30/50 [03:39<03:30, 10.51s/it] 62%|██████▏   | 31/50 [03:44<02:52,  9.08s/it] 64%|██████▍   | 32/50 [03:51<02:29,  8.32s/it] 66%|██████▌   | 33/50 [03:53<01:51,  6.58s/it] 68%|██████▊   | 34/50 [04:21<03:25, 12.87s/it] 70%|███████   | 35/50 [04:24<02:28,  9.93s/it] 72%|███████▏  | 36/50 [04:29<01:57,  8.37s/it] 74%|███████▍  | 37/50 [04:31<01:25,  6.59s/it] 76%|███████▌  | 38/50 [04:35<01:08,  5.67s/it] 78%|███████▊  | 39/50 [04:50<01:33,  8.52s/it] 80%|████████  | 40/50 [04:54<01:10,  7.06s/it] 82%|████████▏ | 41/50 [05:24<02:07, 14.17s/it] 84%|████████▍ | 42/50 [05:28<01:27, 10.89s/it] 86%|████████▌ | 43/50 [05:39<01:17, 11.09s/it] 88%|████████▊ | 44/50 [05:44<00:54,  9.12s/it] 90%|█████████ | 45/50 [05:52<00:44,  8.87s/it] 92%|█████████▏| 46/50 [05:58<00:32,  8.05s/it] 94%|█████████▍| 47/50 [06:06<00:24,  8.16s/it] 96%|█████████▌| 48/50 [06:10<00:13,  6.73s/it] 98%|█████████▊| 49/50 [06:25<00:09,  9.33s/it]100%|██████████| 50/50 [06:29<00:00,  7.57s/it]100%|██████████| 50/50 [06:29<00:00,  7.78s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  389.2721962928772
-  0%|          | 0/96 [00:00<?, ?it/s]  1%|          | 1/96 [00:02<03:46,  2.38s/it]  2%|▏         | 2/96 [00:06<04:54,  3.13s/it]  3%|▎         | 3/96 [00:08<04:43,  3.04s/it]  4%|▍         | 4/96 [00:12<04:47,  3.12s/it]  5%|▌         | 5/96 [00:49<23:10, 15.28s/it]  6%|▋         | 6/96 [00:52<16:38, 11.10s/it]  7%|▋         | 7/96 [00:55<12:31,  8.44s/it]  8%|▊         | 8/96 [00:58<10:07,  6.91s/it]  9%|▉         | 9/96 [01:00<07:56,  5.48s/it] 10%|█         | 10/96 [01:09<09:14,  6.44s/it] 11%|█▏        | 11/96 [01:11<07:22,  5.20s/it] 12%|█▎        | 12/96 [01:15<06:44,  4.81s/it] 14%|█▎        | 13/96 [01:31<11:17,  8.16s/it] 15%|█▍        | 14/96 [01:52<16:21, 11.97s/it] 16%|█▌        | 15/96 [02:01<14:53, 11.03s/it] 17%|█▋        | 16/96 [02:09<13:39, 10.24s/it] 18%|█▊        | 17/96 [02:12<10:33,  8.02s/it] 19%|█▉        | 18/96 [02:16<08:37,  6.63s/it] 20%|█▉        | 19/96 [02:19<07:07,  5.55s/it] 21%|██        | 20/96 [02:26<07:35,  6.00s/it] 22%|██▏       | 21/96 [02:28<06:13,  4.98s/it] 23%|██▎       | 22/96 [02:51<12:49, 10.40s/it] 24%|██▍       | 23/96 [02:54<09:59,  8.22s/it] 25%|██▌       | 24/96 [03:06<11:05,  9.24s/it] 26%|██▌       | 25/96 [03:11<09:33,  8.08s/it] 27%|██▋       | 26/96 [03:15<07:53,  6.77s/it] 28%|██▊       | 27/96 [03:32<11:21,  9.88s/it] 29%|██▉       | 28/96 [03:39<10:16,  9.06s/it] 30%|███       | 29/96 [03:48<09:54,  8.88s/it] 31%|███▏      | 30/96 [03:50<07:36,  6.92s/it] 32%|███▏      | 31/96 [03:53<06:06,  5.64s/it] 33%|███▎      | 32/96 [03:55<04:59,  4.68s/it] 34%|███▍      | 33/96 [04:11<08:26,  8.05s/it] 35%|███▌      | 34/96 [04:16<07:11,  6.96s/it] 36%|███▋      | 35/96 [04:40<12:19, 12.13s/it] 38%|███▊      | 36/96 [05:02<15:05, 15.10s/it] 39%|███▊      | 37/96 [05:09<12:34, 12.79s/it] 40%|███▉      | 38/96 [05:19<11:31, 11.92s/it] 41%|████      | 39/96 [05:22<08:44,  9.19s/it] 42%|████▏     | 40/96 [05:28<07:35,  8.13s/it] 43%|████▎     | 41/96 [05:31<06:07,  6.68s/it] 44%|████▍     | 42/96 [05:40<06:40,  7.42s/it] 45%|████▍     | 43/96 [05:43<05:29,  6.21s/it] 46%|████▌     | 44/96 [05:51<05:50,  6.74s/it] 47%|████▋     | 45/96 [05:56<05:04,  5.97s/it] 48%|████▊     | 46/96 [05:59<04:15,  5.11s/it] 49%|████▉     | 47/96 [06:06<04:36,  5.63s/it] 50%|█████     | 48/96 [06:14<05:08,  6.43s/it] 51%|█████     | 49/96 [06:18<04:35,  5.86s/it] 52%|█████▏    | 50/96 [06:38<07:45, 10.11s/it] 53%|█████▎    | 51/96 [06:43<06:23,  8.52s/it] 54%|█████▍    | 52/96 [06:48<05:28,  7.47s/it] 55%|█████▌    | 53/96 [07:00<06:21,  8.88s/it] 56%|█████▋    | 54/96 [07:03<04:57,  7.09s/it] 57%|█████▋    | 55/96 [07:21<07:00, 10.27s/it] 58%|█████▊    | 56/96 [07:26<05:47,  8.70s/it] 59%|█████▉    | 57/96 [07:45<07:34, 11.65s/it] 60%|██████    | 58/96 [07:48<05:48,  9.16s/it] 61%|██████▏   | 59/96 [08:13<08:40, 14.06s/it] 62%|██████▎   | 60/96 [08:21<07:13, 12.04s/it] 64%|██████▎   | 61/96 [08:24<05:34,  9.57s/it] 65%|██████▍   | 62/96 [08:29<04:30,  7.96s/it] 66%|██████▌   | 63/96 [08:32<03:34,  6.51s/it] 67%|██████▋   | 64/96 [08:46<04:44,  8.90s/it] 68%|██████▊   | 65/96 [09:00<05:23, 10.42s/it] 69%|██████▉   | 66/96 [09:08<04:45,  9.52s/it] 70%|██████▉   | 67/96 [09:10<03:35,  7.44s/it] 71%|███████   | 68/96 [09:22<04:06,  8.82s/it] 72%|███████▏  | 69/96 [09:27<03:24,  7.58s/it] 73%|███████▎  | 70/96 [09:31<02:46,  6.41s/it] 74%|███████▍  | 71/96 [09:47<03:55,  9.43s/it] 75%|███████▌  | 72/96 [09:57<03:45,  9.41s/it] 76%|███████▌  | 73/96 [10:18<04:59, 13.04s/it] 77%|███████▋  | 74/96 [10:22<03:47, 10.32s/it] 78%|███████▊  | 75/96 [10:26<02:54,  8.30s/it] 79%|███████▉  | 76/96 [10:28<02:09,  6.46s/it] 80%|████████  | 77/96 [10:33<01:55,  6.09s/it] 81%|████████▏ | 78/96 [10:41<01:58,  6.60s/it] 82%|████████▏ | 79/96 [10:48<01:54,  6.73s/it] 83%|████████▎ | 80/96 [11:04<02:34,  9.64s/it] 84%|████████▍ | 81/96 [11:11<02:09,  8.66s/it] 85%|████████▌ | 82/96 [11:18<01:53,  8.13s/it] 86%|████████▋ | 83/96 [11:24<01:38,  7.61s/it] 88%|████████▊ | 84/96 [11:30<01:25,  7.15s/it] 89%|████████▊ | 85/96 [11:33<01:04,  5.86s/it] 90%|████████▉ | 86/96 [11:47<01:24,  8.49s/it] 91%|█████████ | 87/96 [11:53<01:09,  7.70s/it] 92%|█████████▏| 88/96 [12:10<01:22, 10.26s/it] 93%|█████████▎| 89/96 [12:14<00:59,  8.43s/it] 94%|█████████▍| 90/96 [12:17<00:40,  6.83s/it] 95%|█████████▍| 91/96 [12:32<00:47,  9.48s/it] 96%|█████████▌| 92/96 [12:35<00:29,  7.42s/it] 97%|█████████▋| 93/96 [12:53<00:32, 10.69s/it] 98%|█████████▊| 94/96 [12:58<00:17,  8.99s/it] 99%|█████████▉| 95/96 [13:16<00:11, 11.54s/it]100%|██████████| 96/96 [13:21<00:00,  9.75s/it]100%|██████████| 96/96 [13:21<00:00,  8.35s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  802.0761797428131
-  0%|          | 0/64 [00:00<?, ?it/s]  2%|▏         | 1/64 [00:05<05:22,  5.11s/it]  3%|▎         | 2/64 [00:08<04:25,  4.28s/it]  5%|▍         | 3/64 [00:12<04:03,  3.99s/it]  6%|▋         | 4/64 [00:15<03:39,  3.66s/it]  8%|▊         | 5/64 [00:29<07:03,  7.18s/it]  9%|▉         | 6/64 [00:32<05:34,  5.77s/it] 11%|█         | 7/64 [00:34<04:26,  4.68s/it] 12%|█▎        | 8/64 [00:52<08:15,  8.85s/it] 14%|█▍        | 9/64 [00:54<06:19,  6.89s/it] 16%|█▌        | 10/64 [00:57<04:59,  5.55s/it] 17%|█▋        | 11/64 [01:14<07:53,  8.93s/it] 19%|█▉        | 12/64 [01:19<06:44,  7.79s/it] 20%|██        | 13/64 [01:25<06:20,  7.45s/it] 22%|██▏       | 14/64 [01:35<06:44,  8.09s/it] 23%|██▎       | 15/64 [01:39<05:42,  6.99s/it] 25%|██▌       | 16/64 [01:42<04:36,  5.76s/it] 27%|██▋       | 17/64 [01:46<04:01,  5.13s/it] 28%|██▊       | 18/64 [01:48<03:16,  4.27s/it] 30%|██▉       | 19/64 [02:06<06:13,  8.30s/it] 31%|███▏      | 20/64 [02:08<04:44,  6.47s/it] 33%|███▎      | 21/64 [02:11<03:48,  5.31s/it] 34%|███▍      | 22/64 [02:15<03:24,  4.87s/it] 36%|███▌      | 23/64 [02:33<06:03,  8.87s/it] 38%|███▊      | 24/64 [02:36<04:49,  7.23s/it] 39%|███▉      | 25/64 [02:47<05:25,  8.35s/it] 41%|████      | 26/64 [02:56<05:27,  8.62s/it] 42%|████▏     | 27/64 [03:00<04:24,  7.15s/it] 44%|████▍     | 28/64 [03:02<03:24,  5.69s/it] 45%|████▌     | 29/64 [03:08<03:22,  5.78s/it] 47%|████▋     | 30/64 [03:26<05:21,  9.46s/it] 48%|████▊     | 31/64 [03:29<04:06,  7.47s/it] 50%|█████     | 32/64 [03:35<03:42,  6.94s/it] 52%|█████▏    | 33/64 [03:37<02:53,  5.61s/it] 53%|█████▎    | 34/64 [03:42<02:42,  5.41s/it] 55%|█████▍    | 35/64 [03:59<04:13,  8.75s/it] 56%|█████▋    | 36/64 [04:05<03:43,  7.97s/it] 58%|█████▊    | 37/64 [04:08<02:50,  6.31s/it] 59%|█████▉    | 38/64 [04:23<03:55,  9.07s/it] 61%|██████    | 39/64 [04:30<03:32,  8.48s/it] 62%|██████▎   | 40/64 [04:40<03:31,  8.83s/it] 64%|██████▍   | 41/64 [04:43<02:47,  7.29s/it] 66%|██████▌   | 42/64 [04:48<02:22,  6.45s/it] 67%|██████▋   | 43/64 [04:52<02:01,  5.80s/it] 69%|██████▉   | 44/64 [04:57<01:48,  5.44s/it] 70%|███████   | 45/64 [05:12<02:38,  8.33s/it] 72%|███████▏  | 46/64 [05:16<02:07,  7.08s/it] 73%|███████▎  | 47/64 [05:30<02:33,  9.06s/it] 75%|███████▌  | 48/64 [05:33<01:56,  7.27s/it] 77%|███████▋  | 49/64 [05:39<01:43,  6.91s/it] 78%|███████▊  | 50/64 [05:52<02:04,  8.89s/it] 80%|███████▉  | 51/64 [05:58<01:42,  7.91s/it] 81%|████████▏ | 52/64 [06:06<01:34,  7.88s/it] 83%|████████▎ | 53/64 [06:08<01:09,  6.30s/it] 84%|████████▍ | 54/64 [06:18<01:11,  7.14s/it] 86%|████████▌ | 55/64 [06:21<00:55,  6.12s/it] 88%|████████▊ | 56/64 [06:24<00:41,  5.14s/it] 89%|████████▉ | 57/64 [06:37<00:51,  7.33s/it] 91%|█████████ | 58/64 [06:44<00:44,  7.39s/it] 92%|█████████▏| 59/64 [06:47<00:30,  6.09s/it] 94%|█████████▍| 60/64 [06:55<00:26,  6.66s/it] 95%|█████████▌| 61/64 [07:00<00:17,  5.98s/it] 97%|█████████▋| 62/64 [07:03<00:10,  5.11s/it] 98%|█████████▊| 63/64 [07:24<00:09,  9.94s/it]100%|██████████| 64/64 [07:27<00:00,  8.03s/it]100%|██████████| 64/64 [07:27<00:00,  7.00s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  448.02213621139526
-  0%|          | 0/76 [00:00<?, ?it/s]  1%|▏         | 1/76 [00:05<06:20,  5.07s/it]  3%|▎         | 2/76 [00:09<05:50,  4.73s/it]  4%|▍         | 3/76 [00:27<13:19, 10.95s/it]  5%|▌         | 4/76 [00:34<11:13,  9.36s/it]  7%|▋         | 5/76 [00:37<08:22,  7.07s/it]  8%|▊         | 6/76 [01:29<25:44, 22.06s/it]  9%|▉         | 7/76 [01:34<19:17, 16.77s/it] 11%|█         | 8/76 [01:37<13:51, 12.22s/it] 12%|█▏        | 9/76 [01:45<12:07, 10.86s/it] 13%|█▎        | 10/76 [01:50<09:53,  9.00s/it] 14%|█▍        | 11/76 [02:01<10:27,  9.65s/it] 16%|█▌        | 12/76 [02:13<11:15, 10.55s/it] 17%|█▋        | 13/76 [02:15<08:22,  7.97s/it] 18%|█▊        | 14/76 [02:21<07:36,  7.37s/it] 20%|█▉        | 15/76 [02:24<05:59,  5.89s/it] 21%|██        | 16/76 [02:27<05:05,  5.10s/it] 22%|██▏       | 17/76 [02:29<04:11,  4.26s/it] 24%|██▎       | 18/76 [02:35<04:39,  4.82s/it] 25%|██▌       | 19/76 [02:45<05:52,  6.18s/it] 26%|██▋       | 20/76 [02:53<06:11,  6.63s/it] 28%|██▊       | 21/76 [02:56<05:15,  5.73s/it] 29%|██▉       | 22/76 [02:59<04:17,  4.77s/it] 30%|███       | 23/76 [03:05<04:33,  5.15s/it] 32%|███▏      | 24/76 [13:20<2:43:06, 188.21s/it] 33%|███▎      | 25/76 [13:23<1:52:41, 132.58s/it] 34%|███▍      | 26/76 [13:26<1:18:11, 93.83s/it]  36%|███▌      | 27/76 [13:30<54:38, 66.90s/it]   37%|███▋      | 28/76 [13:39<39:29, 49.35s/it] 38%|███▊      | 29/76 [13:47<29:02, 37.07s/it] 39%|███▉      | 30/76 [13:50<20:29, 26.72s/it] 41%|████      | 31/76 [13:53<14:47, 19.73s/it] 42%|████▏     | 32/76 [13:56<10:53, 14.84s/it] 43%|████▎     | 33/76 [14:16<11:35, 16.17s/it] 45%|████▍     | 34/76 [14:20<08:53, 12.71s/it] 46%|████▌     | 35/76 [14:26<07:07, 10.43s/it] 47%|████▋     | 36/76 [14:32<06:15,  9.40s/it] 49%|████▊     | 37/76 [14:38<05:16,  8.11s/it] 50%|█████     | 38/76 [14:42<04:26,  7.01s/it] 51%|█████▏    | 39/76 [14:45<03:32,  5.73s/it] 53%|█████▎    | 40/76 [15:23<09:15, 15.43s/it] 54%|█████▍    | 41/76 [15:29<07:21, 12.62s/it] 55%|█████▌    | 42/76 [15:33<05:41, 10.03s/it] 57%|█████▋    | 43/76 [15:37<04:34,  8.32s/it] 58%|█████▊    | 44/76 [15:40<03:31,  6.60s/it] 59%|█████▉    | 45/76 [15:51<04:03,  7.85s/it] 61%|██████    | 46/76 [15:56<03:33,  7.10s/it] 62%|██████▏   | 47/76 [16:02<03:15,  6.74s/it] 63%|██████▎   | 48/76 [16:05<02:40,  5.72s/it] 64%|██████▍   | 49/76 [16:07<02:06,  4.69s/it] 66%|██████▌   | 50/76 [16:12<01:59,  4.59s/it] 67%|██████▋   | 51/76 [16:19<02:15,  5.44s/it] 68%|██████▊   | 52/76 [16:23<01:57,  4.92s/it] 70%|██████▉   | 53/76 [16:29<01:58,  5.13s/it] 71%|███████   | 54/76 [16:35<02:01,  5.51s/it] 72%|███████▏  | 55/76 [25:23<56:50, 162.42s/it] 74%|███████▎  | 56/76 [25:27<38:17, 114.88s/it] 75%|███████▌  | 57/76 [25:34<26:04, 82.35s/it] litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.APIConnectionError: [SSL] record layer failure (_ssl.c:2578)
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
-    data = self._network_stream.read(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 124, in read
-    with map_exceptions(exc_map):
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadError: [SSL] record layer failure (_ssl.c:2578)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadError: [SSL] record layer failure (_ssl.c:2578)
- [sleep 10 seconds]
-litellm.APIConnectionError: [SSL] record layer failure (_ssl.c:2578)
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
-    data = self._network_stream.read(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 124, in read
-    with map_exceptions(exc_map):
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadError: [SSL] record layer failure (_ssl.c:2578)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadError: [SSL] record layer failure (_ssl.c:2578)
- [sleep 10 seconds]
- 76%|███████▋  | 58/76 [26:04<20:00, 66.72s/it] 78%|███████▊  | 59/76 [26:07<13:29, 47.64s/it] 79%|███████▉  | 60/76 [26:15<09:31, 35.71s/it] 80%|████████  | 61/76 [26:19<06:34, 26.28s/it] 82%|████████▏ | 62/76 [26:23<04:32, 19.47s/it] 83%|████████▎ | 63/76 [26:26<03:09, 14.60s/it] 84%|████████▍ | 64/76 [26:29<02:10, 10.91s/it] 86%|████████▌ | 65/76 [26:33<01:40,  9.09s/it] 87%|████████▋ | 66/76 [26:38<01:16,  7.65s/it] 88%|████████▊ | 67/76 [26:49<01:17,  8.65s/it] 89%|████████▉ | 68/76 [26:52<00:56,  7.03s/it] 91%|█████████ | 69/76 [26:58<00:46,  6.64s/it] 92%|█████████▏| 70/76 [27:18<01:04, 10.79s/it] 93%|█████████▎| 71/76 [27:22<00:42,  8.59s/it] 95%|█████████▍| 72/76 [27:26<00:29,  7.34s/it] 96%|█████████▌| 73/76 [27:28<00:17,  5.86s/it] 97%|█████████▋| 74/76 [27:33<00:11,  5.54s/it] 99%|█████████▊| 75/76 [27:36<00:04,  4.85s/it]100%|██████████| 76/76 [27:41<00:00,  4.71s/it]100%|██████████| 76/76 [27:41<00:00, 21.86s/it]
-litellm.APIConnectionError: [Errno 9] Bad file descriptor
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 224, in _receive_event
-    data = self._network_stream.read(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_backends/sync.py", line 124, in read
-    with map_exceptions(exc_map):
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadError: [Errno 9] Bad file descriptor
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadError: [Errno 9] Bad file descriptor
- [sleep 10 seconds]
-litellm.APIConnectionError: Server disconnected without sending a response.
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
-    yield
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 233, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
-    raise exc from None
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
-    response = connection.handle_request(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    return self._connection.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
-    raise exc
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 113, in handle_request
-    ) = self._receive_response_headers(**kwargs)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 186, in _receive_response_headers
-    event = self._receive_event(timeout=timeout)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpcore/_sync/http11.py", line 238, in _receive_event
-    raise RemoteProtocolError(msg)
-httpcore.RemoteProtocolError: Server disconnected without sending a response.
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/main.py", line 2293, in completion
-    response = bedrock_chat_completion.completion(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/bedrock_httpx.py", line 1094, in completion
-    response = self.client.post(url=prepped.url, headers=prepped.headers, data=data)  # type: ignore
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/litellm/llms/custom_httpx/http_handler.py", line 200, in post
-    response = self.client.send(req, stream=stream)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_client.py", line 1015, in _send_single_request
-    response = transport.handle_request(request)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 232, in handle_request
-    with map_httpcore_exceptions():
-  File "/opt/conda/envs/refchecker/lib/python3.10/contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/conda/envs/refchecker/lib/python3.10/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.RemoteProtocolError: Server disconnected without sending a response.
- [sleep 10 seconds]
-time:  1661.377201795578
-  0%|          | 0/87 [00:00<?, ?it/s]  1%|          | 1/87 [00:02<03:59,  2.78s/it]  2%|▏         | 2/87 [00:08<06:34,  4.64s/it]  3%|▎         | 3/87 [00:12<05:40,  4.05s/it]  5%|▍         | 4/87 [00:45<21:29, 15.54s/it]  6%|▌         | 5/87 [00:54<18:09, 13.28s/it]  7%|▋         | 6/87 [01:00<14:47, 10.96s/it]  8%|▊         | 7/87 [01:07<12:35,  9.44s/it]  9%|▉         | 8/87 [01:11<10:17,  7.82s/it] 10%|█         | 9/87 [01:15<08:26,  6.49s/it] 11%|█▏        | 10/87 [01:18<06:59,  5.44s/it] 13%|█▎        | 11/87 [01:21<06:07,  4.83s/it] 14%|█▍        | 12/87 [01:24<05:09,  4.12s/it] 15%|█▍        | 13/87 [01:52<14:04, 11.41s/it] 16%|█▌        | 14/87 [01:58<11:50,  9.73s/it] 17%|█▋        | 15/87 [02:00<09:07,  7.61s/it] 18%|█▊        | 16/87 [02:05<08:02,  6.80s/it] 20%|█▉        | 17/87 [02:10<07:11,  6.17s/it] 21%|██        | 18/87 [02:12<05:39,  4.93s/it] 22%|██▏       | 19/87 [02:32<10:31,  9.29s/it] 23%|██▎       | 20/87 [02:45<11:52, 10.63s/it] 24%|██▍       | 21/87 [02:49<09:30,  8.64s/it] 25%|██▌       | 22/87 [02:59<09:45,  9.01s/it] 26%|██▋       | 23/87 [03:02<07:45,  7.27s/it] 28%|██▊       | 24/87 [03:06<06:23,  6.08s/it] 29%|██▊       | 25/87 [03:08<05:08,  4.97s/it] 30%|██▉       | 26/87 [03:31<10:35, 10.42s/it] 31%|███       | 27/87 [03:41<10:15, 10.25s/it] 32%|███▏      | 28/87 [03:44<08:02,  8.17s/it] 33%|███▎      | 29/87 [03:48<06:39,  6.89s/it] 34%|███▍      | 30/87 [03:54<06:14,  6.57s/it] 36%|███▌      | 31/87 [03:57<05:05,  5.45s/it] 37%|███▋      | 32/87 [04:16<08:44,  9.53s/it] 38%|███▊      | 33/87 [04:19<06:45,  7.51s/it] 39%|███▉      | 34/87 [04:22<05:36,  6.35s/it] 40%|████      | 35/87 [04:48<10:21, 11.96s/it] 41%|████▏     | 36/87 [04:53<08:23,  9.88s/it] 43%|████▎     | 37/87 [04:57<06:56,  8.33s/it] 44%|████▎     | 38/87 [05:00<05:23,  6.61s/it] 45%|████▍     | 39/87 [05:13<06:57,  8.69s/it] 46%|████▌     | 40/87 [05:15<05:14,  6.69s/it] 47%|████▋     | 41/87 [05:32<07:29,  9.78s/it] 48%|████▊     | 42/87 [05:35<05:41,  7.60s/it] 49%|████▉     | 43/87 [05:38<04:35,  6.26s/it] 51%|█████     | 44/87 [05:52<06:13,  8.68s/it] 52%|█████▏    | 45/87 [05:56<04:59,  7.13s/it] 53%|█████▎    | 46/87 [06:09<06:08,  8.98s/it] 54%|█████▍    | 47/87 [06:12<04:42,  7.07s/it] 55%|█████▌    | 48/87 [06:25<05:49,  8.97s/it] 56%|█████▋    | 49/87 [06:29<04:43,  7.47s/it] 57%|█████▋    | 50/87 [06:47<06:31, 10.58s/it] 59%|█████▊    | 51/87 [06:53<05:34,  9.29s/it] 60%|█████▉    | 52/87 [06:58<04:35,  7.88s/it] 61%|██████    | 53/87 [07:13<05:45, 10.16s/it] 62%|██████▏   | 54/87 [07:28<06:23, 11.61s/it] 63%|██████▎   | 55/87 [07:32<04:57,  9.29s/it] 64%|██████▍   | 56/87 [07:41<04:38,  8.99s/it] 66%|██████▌   | 57/87 [07:56<05:27, 10.92s/it] 67%|██████▋   | 58/87 [08:03<04:47,  9.90s/it] 68%|██████▊   | 59/87 [08:20<05:31, 11.84s/it] 69%|██████▉   | 60/87 [08:23<04:05,  9.10s/it] 70%|███████   | 61/87 [08:29<03:33,  8.22s/it] 71%|███████▏  | 62/87 [08:32<02:44,  6.59s/it] 72%|███████▏  | 63/87 [08:35<02:15,  5.63s/it] 74%|███████▎  | 64/87 [08:37<01:47,  4.67s/it] 75%|███████▍  | 65/87 [08:56<03:14,  8.84s/it] 76%|███████▌  | 66/87 [09:01<02:41,  7.67s/it] 77%|███████▋  | 67/87 [09:09<02:36,  7.84s/it] 78%|███████▊  | 68/87 [09:22<03:00,  9.51s/it] 79%|███████▉  | 69/87 [09:26<02:20,  7.82s/it] 80%|████████  | 70/87 [09:37<02:27,  8.69s/it] 82%|████████▏ | 71/87 [09:42<01:59,  7.50s/it] 83%|████████▎ | 72/87 [09:46<01:39,  6.63s/it] 84%|████████▍ | 73/87 [09:55<01:41,  7.22s/it] 85%|████████▌ | 74/87 [10:00<01:23,  6.44s/it] 86%|████████▌ | 75/87 [10:03<01:06,  5.56s/it] 87%|████████▋ | 76/87 [10:16<01:26,  7.88s/it] 89%|████████▊ | 77/87 [10:21<01:09,  6.96s/it] 90%|████████▉ | 78/87 [10:36<01:23,  9.31s/it] 91%|█████████ | 79/87 [10:39<00:59,  7.49s/it] 92%|█████████▏| 80/87 [10:42<00:43,  6.18s/it] 93%|█████████▎| 81/87 [11:00<00:58,  9.74s/it] 94%|█████████▍| 82/87 [11:06<00:42,  8.60s/it] 95%|█████████▌| 83/87 [11:08<00:26,  6.62s/it] 97%|█████████▋| 84/87 [11:26<00:29,  9.80s/it] 98%|█████████▊| 85/87 [11:47<00:26, 13.23s/it] 99%|█████████▉| 86/87 [11:51<00:10, 10.53s/it]100%|██████████| 87/87 [11:53<00:00,  7.87s/it]100%|██████████| 87/87 [11:53<00:00,  8.20s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  713.3174388408661
-  0%|          | 0/99 [00:00<?, ?it/s]  1%|          | 1/99 [00:02<04:37,  2.83s/it]  2%|▏         | 2/99 [00:08<06:59,  4.33s/it]  3%|▎         | 3/99 [00:10<05:35,  3.49s/it]  4%|▍         | 4/99 [00:28<14:16,  9.02s/it]  5%|▌         | 5/99 [00:33<11:46,  7.52s/it]  6%|▌         | 6/99 [00:46<14:58,  9.67s/it]  7%|▋         | 7/99 [01:00<16:55, 11.03s/it]  8%|▊         | 8/99 [01:14<18:01, 11.89s/it]  9%|▉         | 9/99 [01:18<14:16,  9.51s/it] 10%|█         | 10/99 [01:41<20:09, 13.59s/it] 11%|█         | 11/99 [01:47<16:39, 11.36s/it] 12%|█▏        | 12/99 [01:51<13:03,  9.01s/it] 13%|█▎        | 13/99 [02:08<16:36, 11.59s/it] 14%|█▍        | 14/99 [02:16<14:46, 10.43s/it] 15%|█▌        | 15/99 [02:55<26:22, 18.84s/it] 16%|█▌        | 16/99 [03:00<20:36, 14.90s/it] 17%|█▋        | 17/99 [03:05<16:17, 11.92s/it] 18%|█▊        | 18/99 [03:10<13:02,  9.66s/it] 19%|█▉        | 19/99 [03:14<10:40,  8.00s/it] 20%|██        | 20/99 [03:17<08:39,  6.57s/it] 21%|██        | 21/99 [03:41<15:21, 11.82s/it] 22%|██▏       | 22/99 [03:44<11:44,  9.15s/it] 23%|██▎       | 23/99 [03:49<09:57,  7.86s/it] 24%|██▍       | 24/99 [04:13<15:48, 12.65s/it] 25%|██▌       | 25/99 [04:21<14:01, 11.37s/it] 26%|██▋       | 26/99 [04:32<13:38, 11.22s/it] 27%|██▋       | 27/99 [04:41<12:37, 10.52s/it] 28%|██▊       | 28/99 [04:50<11:59, 10.14s/it] 29%|██▉       | 29/99 [04:55<10:09,  8.71s/it] 30%|███       | 30/99 [04:58<07:46,  6.76s/it] 31%|███▏      | 31/99 [05:23<14:05, 12.43s/it] 32%|███▏      | 32/99 [05:27<10:53,  9.75s/it] 33%|███▎      | 33/99 [05:32<09:08,  8.30s/it] 34%|███▍      | 34/99 [05:50<12:06, 11.17s/it] 35%|███▌      | 35/99 [05:54<09:38,  9.03s/it] 36%|███▋      | 36/99 [06:10<11:48, 11.24s/it] 37%|███▋      | 37/99 [06:18<10:29, 10.15s/it] 38%|███▊      | 38/99 [06:28<10:25, 10.26s/it] 39%|███▉      | 39/99 [06:39<10:33, 10.56s/it] 40%|████      | 40/99 [06:44<08:37,  8.77s/it] 41%|████▏     | 41/99 [07:03<11:26, 11.84s/it] 42%|████▏     | 42/99 [07:09<09:38, 10.14s/it] 43%|████▎     | 43/99 [07:37<14:21, 15.38s/it] 44%|████▍     | 44/99 [07:39<10:36, 11.57s/it] 45%|████▌     | 45/99 [07:46<09:05, 10.10s/it] 46%|████▋     | 46/99 [08:09<12:11, 13.80s/it] 47%|████▋     | 47/99 [08:20<11:16, 13.00s/it] 48%|████▊     | 48/99 [08:22<08:24,  9.88s/it] 49%|████▉     | 49/99 [08:31<07:52,  9.46s/it] 51%|█████     | 50/99 [09:07<14:17, 17.50s/it] 52%|█████▏    | 51/99 [09:12<10:55, 13.66s/it] 53%|█████▎    | 52/99 [09:21<09:41, 12.38s/it] 54%|█████▎    | 53/99 [09:27<07:56, 10.35s/it] 55%|█████▍    | 54/99 [09:39<08:11, 10.93s/it] 56%|█████▌    | 55/99 [09:45<06:52,  9.38s/it] 57%|█████▋    | 56/99 [09:49<05:37,  7.85s/it] 58%|█████▊    | 57/99 [10:07<07:40, 10.96s/it] 59%|█████▊    | 58/99 [10:14<06:38,  9.73s/it] 60%|█████▉    | 59/99 [10:31<07:49, 11.74s/it] 61%|██████    | 60/99 [10:42<07:31, 11.59s/it] 62%|██████▏   | 61/99 [10:47<06:08,  9.69s/it] 63%|██████▎   | 62/99 [10:57<05:55,  9.62s/it] 64%|██████▎   | 63/99 [11:21<08:27, 14.09s/it] 65%|██████▍   | 64/99 [11:24<06:11, 10.63s/it] 66%|██████▌   | 65/99 [11:40<07:02, 12.43s/it] 67%|██████▋   | 66/99 [11:44<05:27,  9.94s/it] 68%|██████▊   | 67/99 [12:03<06:42, 12.58s/it] 69%|██████▊   | 68/99 [12:08<05:16, 10.21s/it] 70%|██████▉   | 69/99 [12:18<05:02, 10.09s/it] 71%|███████   | 70/99 [12:36<06:01, 12.45s/it] 72%|███████▏  | 71/99 [12:53<06:26, 13.82s/it] 73%|███████▎  | 72/99 [13:03<05:47, 12.86s/it] 74%|███████▎  | 73/99 [13:08<04:34, 10.55s/it] 75%|███████▍  | 74/99 [13:33<06:07, 14.72s/it] 76%|███████▌  | 75/99 [13:35<04:24, 11.04s/it] 77%|███████▋  | 76/99 [14:04<06:13, 16.22s/it] 78%|███████▊  | 77/99 [14:11<05:02, 13.73s/it] 79%|███████▉  | 78/99 [14:20<04:15, 12.15s/it] 80%|███████▉  | 79/99 [14:24<03:12,  9.60s/it] 81%|████████  | 80/99 [14:32<02:54,  9.20s/it] 82%|████████▏ | 81/99 [14:35<02:13,  7.42s/it] 83%|████████▎ | 82/99 [14:53<03:01, 10.68s/it] 84%|████████▍ | 83/99 [14:59<02:26,  9.18s/it] 85%|████████▍ | 84/99 [15:20<03:09, 12.66s/it] 86%|████████▌ | 85/99 [15:28<02:37, 11.24s/it] 87%|████████▋ | 86/99 [15:30<01:52,  8.66s/it] 88%|████████▊ | 87/99 [15:57<02:50, 14.17s/it] 89%|████████▉ | 88/99 [16:00<01:58, 10.76s/it] 90%|████████▉ | 89/99 [16:41<03:17, 19.79s/it] 91%|█████████ | 90/99 [16:47<02:21, 15.72s/it] 92%|█████████▏| 91/99 [16:55<01:46, 13.30s/it] 93%|█████████▎| 92/99 [16:59<01:14, 10.61s/it] 94%|█████████▍| 93/99 [17:07<00:58,  9.79s/it] 95%|█████████▍| 94/99 [17:15<00:46,  9.21s/it] 96%|█████████▌| 95/99 [17:22<00:34,  8.60s/it] 97%|█████████▋| 96/99 [17:28<00:23,  7.78s/it] 98%|█████████▊| 97/99 [17:41<00:18,  9.43s/it] 99%|█████████▉| 98/99 [17:53<00:09,  9.99s/it]100%|██████████| 99/99 [17:54<00:00,  7.50s/it]100%|██████████| 99/99 [17:54<00:00, 10.86s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  1074.9717755317688
-  0%|          | 0/88 [00:00<?, ?it/s]  1%|          | 1/88 [00:02<04:03,  2.80s/it]  2%|▏         | 2/88 [00:05<03:53,  2.71s/it]  3%|▎         | 3/88 [00:22<12:48,  9.05s/it]  5%|▍         | 4/88 [00:26<10:23,  7.42s/it]  6%|▌         | 5/88 [00:30<08:22,  6.06s/it]  7%|▋         | 6/88 [01:00<19:18, 14.13s/it]  8%|▊         | 7/88 [01:06<15:19, 11.35s/it]  9%|▉         | 8/88 [01:08<11:27,  8.59s/it] 10%|█         | 9/88 [01:12<09:21,  7.10s/it] 11%|█▏        | 10/88 [01:15<07:32,  5.80s/it] 12%|█▎        | 11/88 [01:35<12:58, 10.12s/it] 14%|█▎        | 12/88 [01:40<10:48,  8.53s/it] 15%|█▍        | 13/88 [01:46<09:41,  7.76s/it] 16%|█▌        | 14/88 [01:50<08:22,  6.79s/it] 17%|█▋        | 15/88 [02:05<11:16,  9.26s/it] 18%|█▊        | 16/88 [02:08<08:54,  7.42s/it] 19%|█▉        | 17/88 [02:24<11:44,  9.92s/it] 20%|██        | 18/88 [02:29<09:41,  8.31s/it] 22%|██▏       | 19/88 [02:33<08:14,  7.16s/it] 23%|██▎       | 20/88 [02:47<10:19,  9.10s/it] 24%|██▍       | 21/88 [02:49<07:57,  7.12s/it] 25%|██▌       | 22/88 [03:06<10:49,  9.85s/it] 26%|██▌       | 23/88 [03:09<08:37,  7.97s/it] 27%|██▋       | 24/88 [03:37<14:54, 13.98s/it] 28%|██▊       | 25/88 [03:44<12:24, 11.82s/it] 30%|██▉       | 26/88 [03:47<09:24,  9.10s/it] 31%|███       | 27/88 [03:58<09:58,  9.81s/it] 32%|███▏      | 28/88 [04:02<08:04,  8.08s/it] 33%|███▎      | 29/88 [04:07<06:51,  6.98s/it] 34%|███▍      | 30/88 [04:27<10:46, 11.14s/it] 35%|███▌      | 31/88 [04:30<08:09,  8.58s/it] 36%|███▋      | 32/88 [04:46<09:56, 10.66s/it] 38%|███▊      | 33/88 [04:48<07:33,  8.24s/it] 39%|███▊      | 34/88 [05:03<09:09, 10.17s/it] 40%|███▉      | 35/88 [05:15<09:29, 10.74s/it] 41%|████      | 36/88 [05:19<07:31,  8.68s/it] 42%|████▏     | 37/88 [05:21<05:47,  6.82s/it] 43%|████▎     | 38/88 [05:38<08:07,  9.75s/it] 44%|████▍     | 39/88 [05:42<06:30,  7.97s/it] 45%|████▌     | 40/88 [06:28<15:29, 19.36s/it] 47%|████▋     | 41/88 [06:34<12:11, 15.57s/it] 48%|████▊     | 42/88 [06:40<09:35, 12.51s/it] 49%|████▉     | 43/88 [06:44<07:39, 10.20s/it] 50%|█████     | 44/88 [06:58<08:16, 11.28s/it] 51%|█████     | 45/88 [07:07<07:29, 10.46s/it] 52%|█████▏    | 46/88 [07:12<06:09,  8.81s/it] 53%|█████▎    | 47/88 [07:16<05:01,  7.35s/it] 55%|█████▍    | 48/88 [07:18<03:57,  5.94s/it] 56%|█████▌    | 49/88 [07:30<05:00,  7.72s/it] 57%|█████▋    | 50/88 [07:33<04:02,  6.37s/it] 58%|█████▊    | 51/88 [07:36<03:13,  5.22s/it] 59%|█████▉    | 52/88 [07:40<02:49,  4.70s/it] 60%|██████    | 53/88 [07:59<05:15,  9.03s/it] 61%|██████▏   | 54/88 [08:01<03:57,  7.00s/it] 62%|██████▎   | 55/88 [08:04<03:11,  5.79s/it] 64%|██████▎   | 56/88 [08:22<05:05,  9.54s/it] 65%|██████▍   | 57/88 [08:26<04:03,  7.84s/it] 66%|██████▌   | 58/88 [08:29<03:09,  6.32s/it] 67%|██████▋   | 59/88 [08:46<04:35,  9.50s/it] 68%|██████▊   | 60/88 [08:48<03:25,  7.35s/it] 69%|██████▉   | 61/88 [09:04<04:29,  9.98s/it] 70%|███████   | 62/88 [09:07<03:21,  7.76s/it] 72%|███████▏  | 63/88 [09:22<04:10, 10.04s/it] 73%|███████▎  | 64/88 [09:25<03:11,  7.99s/it] 74%|███████▍  | 65/88 [09:42<04:02, 10.54s/it] 75%|███████▌  | 66/88 [09:45<03:00,  8.21s/it] 76%|███████▌  | 67/88 [10:06<04:17, 12.25s/it] 77%|███████▋  | 68/88 [10:10<03:16,  9.82s/it] 78%|███████▊  | 69/88 [10:13<02:27,  7.75s/it] 80%|███████▉  | 70/88 [10:18<02:04,  6.92s/it] 81%|████████  | 71/88 [10:34<02:42,  9.58s/it] 82%|████████▏ | 72/88 [10:37<01:58,  7.43s/it] 83%|████████▎ | 73/88 [10:54<02:36, 10.43s/it] 84%|████████▍ | 74/88 [10:58<02:01,  8.65s/it] 85%|████████▌ | 75/88 [11:03<01:37,  7.48s/it] 86%|████████▋ | 76/88 [11:25<02:21, 11.78s/it] 88%|████████▊ | 77/88 [11:36<02:07, 11.56s/it] 89%|████████▊ | 78/88 [11:40<01:32,  9.29s/it] 90%|████████▉ | 79/88 [11:44<01:08,  7.56s/it] 91%|█████████ | 80/88 [11:46<00:48,  6.02s/it] 92%|█████████▏| 81/88 [12:00<00:58,  8.35s/it] 93%|█████████▎| 82/88 [12:05<00:43,  7.28s/it] 94%|█████████▍| 83/88 [12:19<00:47,  9.57s/it] 95%|█████████▌| 84/88 [12:30<00:39,  9.89s/it] 97%|█████████▋| 85/88 [12:39<00:28,  9.50s/it] 98%|█████████▊| 86/88 [12:42<00:15,  7.51s/it] 99%|█████████▉| 87/88 [12:56<00:09,  9.70s/it]100%|██████████| 88/88 [13:02<00:00,  8.43s/it]100%|██████████| 88/88 [13:02<00:00,  8.89s/it]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-litellm.RateLimitError: BedrockException - {"message":"Too many requests, please wait before trying again. You have sent too many requests.  Wait before trying again."} [sleep 10 seconds]
-time:  782.4350578784943

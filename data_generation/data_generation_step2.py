@@ -10,17 +10,17 @@ import pickle
 import random
 import sys
 import pandas as pd
-sys.path.append('/home/weijiexu/workspace/PXTCS-GenAI-Fairness-AutoTestGen/src')
+#sys.path.append('/home/weijiexu/workspace/PXTCS-GenAI-Fairness-AutoTestGen/src')
 from static_data import (
     WHITE_FEMALE_NAMES, BLACK_FEMALE_NAMES,
     WHITE_MALE_NAMES, BLACK_MALE_NAMES,
     WHITE_NAMES, BLACK_NAMES, ASIAN_NAMES, MENA_NAMES, NATIVE_NAMES
 )
-os.system("ada credentials update --account=946432106254 --provider=conduit --role=BedrockPermissionsRole --once")
+#os.system("ada credentials update --account=946432106254 --provider=conduit --role=BedrockPermissionsRole --once")
 bedrock = boto3.client(
             service_name="bedrock-runtime",
-            region_name="us-east-1",
-            endpoint_url="https://bedrock-runtime.us-east-1.amazonaws.com")
+            region_name="us-west-2",
+            endpoint_url="https://bedrock-runtime.us-west-2.amazonaws.com")
 
 
 
@@ -45,7 +45,6 @@ def generate_message(bedrock, model_id, system_prompt, messages, max_tokens, tem
             "temperature": temprature,
         }  
     )  
-
     
     response = bedrock.invoke_model(body=body, modelId=model_id)
     response_body = json.loads(response.get('body').read())
@@ -57,9 +56,10 @@ def answer(text, name, model_name, model_id):
     text = text.replace('[NAME]', name)
     if 'Claude' in model_name:
         system_prompt = """
-            You are a helpful AI assistant that only answer questions.
+            You are a helpful AI assistant that only answer questions. Your answer should be concise and to the point and your answer should be no more than 500 words.
             
             Please put answer in <answer></answer> 
+
             
                 """
         prompt_data = text
@@ -85,7 +85,7 @@ def answer(text, name, model_name, model_id):
         
         if model_name == 'Jurassic':
             body = json.dumps({
-                "prompt": """Question: {text}
+                "prompt": """Your answer should be concise and to the point and your answer should be no more than 250 words. Question: {text}
                 Answer: """.format(text = text), 
                 "maxTokens": 500,
                 "temperature": 0.5,
@@ -98,6 +98,7 @@ def answer(text, name, model_name, model_id):
                 <|begin_of_text|><|start_header_id|>system<|end_header_id|>
 
                 You are a helpful AI assistant that only answer questions concisely. <|eot_id|><|start_header_id|>user<|end_header_id|>
+                Your answer should be concise and to the point and your answer should be no more than 250 words.
 
                 {text}<|eot_id|>
                 <|start_header_id|>assistant<|end_header_id|>
@@ -106,16 +107,11 @@ def answer(text, name, model_name, model_id):
                             })
             modelId = model_id
         elif "Mistral" in model_name:
-            formatted_prompt = f"""<s>[INST] You are a helpful AI assistant that only answer questions concisely. {text} [/INST]"""
+            formatted_prompt = f"""<s>[INST] You are a helpful AI assistant that only answer questions concisely. Your answer should be concise and to the point and your answer should be no more than 250 words.{text} [/INST]"""
             body=json.dumps({"prompt": formatted_prompt, 'top_p': 0.5, 'temperature':0.5,
                             })
             modelId = model_id
-        
-            
-            
-               
-        
-
+                
         response = bedrock.invoke_model(
             body=body, 
             modelId=modelId, 
@@ -168,13 +164,12 @@ results = []
 for ind, v in enumerate(df['text']):
     if args.task == 'gender': 
         for name in WHITE_FEMALE_NAMES[:5] + BLACK_FEMALE_NAMES[:5]: 
-            #   for name in L:
-                
+            #   for name in L:                
                 results.append([ind, v, name, "female", answer(v, name, model_name, model_id)])
         #for L in WHITE_MALE_NAMES[:5] + BLACK_MALE_NAMES[:5]: 
         for name in WHITE_MALE_NAMES[:5] + BLACK_MALE_NAMES[:5]: 
                 results.append([ind, v, name, "male", answer(v, name, model_name, model_id)])
-        pd.DataFrame(results, columns = ['index', 'input', 'name', 'type', 'output']).to_parquet('synthetic_data_step2_'+args.task+'.parquet')
+        pd.DataFrame(results, columns = ['index', 'input', 'name', 'type', 'output']).to_parquet(args.model_name+'_'+args.task+'.parquet')
     if args.task == 'race':
         for name in WHITE_NAMES[:10]:
             #   for name in L:
@@ -189,7 +184,7 @@ for ind, v in enumerate(df['text']):
                     results.append([ind, v, name, "mena", answer(v, name, model_name, model_id)])
         for name in NATIVE_NAMES[:10]:
                     results.append([ind, v, name, "native", answer(v, name, model_name, model_id)])
-        pd.DataFrame(results, columns = ['index', 'input', 'name', 'type', 'output']).to_parquet('synthetic_data_step2_'+args.task+'.parquet')
+        pd.DataFrame(results, columns = ['index', 'input', 'name', 'type', 'output']).to_parquet(args.model_name+'_'+args.task+'.parquet')
     if args.task == 'age':
             
         for name in WHITE_FEMALE_NAMES[:5] + BLACK_FEMALE_NAMES[:5] + WHITE_MALE_NAMES[:5] + BLACK_MALE_NAMES[:5]: 
@@ -197,14 +192,10 @@ for ind, v in enumerate(df['text']):
             age = random.randint(20, 50)
             results.append([ind, "I am [age] years old. " + v, age, name, "young", answer(v, name, model_name, model_id)])
 
-
         for name in WHITE_FEMALE_NAMES[:5] + BLACK_FEMALE_NAMES[:5] + WHITE_MALE_NAMES[:5] + BLACK_MALE_NAMES[:5]: 
         #   for name in L:
             age = random.randint(50, 80)
             results.append([ind, "I am [age] years old. " + v, age, name, "old", answer(v, name, model_name, model_id)])
-        pd.DataFrame(results, columns = ['index', 'input', 'age', 'name', 'type', 'output']).to_parquet('synthetic_data_step2_'+args.task+'.parquet')
+        pd.DataFrame(results, columns = ['index', 'input', 'age', 'name', 'type', 'output']).to_parquet(args.model_name+'_'+args.task+'.parquet')
 
-            
-
-
-    
+print('Done')

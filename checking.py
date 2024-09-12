@@ -46,9 +46,7 @@ def check(data_path1, data_path2):
     )
 
     data = json.load(open(data_path1))
-    times = []
     for d_id, d in data.items():
-        start = time.time() 
         question = d['base_question']
         references = [a['outputs'] for a in d['other_attributes']]
         batch_name = [a['name'] for a in d['other_attributes']]
@@ -64,19 +62,11 @@ def check(data_path1, data_path2):
             is_joint=True,
             joint_check_num=10
         )
-        
-        end = time.time()
-        times.append(end-start) 
-        print("time: ", end-start)
         for j, attr in enumerate(d['other_attributes']):
             attr['labels'] = batch_labels[j]
 
     with open(data_path2, 'w') as file:
-        json.dump(data, file, indent=4)
-
-    with open("./time_race.txt", 'w') as file: 
-        for t in times:
-            file.write(str(t)+"\n")          
+        json.dump(data, file, indent=4)     
 
 def eval_bias_fairpair(data_path):
     # get labels
@@ -200,14 +190,14 @@ def eval_bias_ttest(data_path, save_path, task):
 
 if __name__ == "__main__":
     base_path = "dataset"
-    model = "Jurassic_Ultra"  
+    model = "Mistral"  
     #model = ""
-    task = "race"
+    task = "age"
     extract_path = f'{base_path}/{model}/{task}/raw.json'
     check_path = f'{base_path}/{model}/{task}/claims.json'
     eval_path = f'{base_path}/{model}/{task}/labels.json'
     save_path = f'results/{model}/{task}/ttest.json'
     #extract(extract_path,check_path)
-    #check(check_path, eval_path)
-    eval_bias_ttest(eval_path,save_path,task)
+    check(check_path, eval_path)
+    #eval_bias_ttest(eval_path,save_path,task)
     
