@@ -3,9 +3,12 @@ import json
 import os
 import numpy as np
 import time
+import argparse
+import sys
 from utils_for_checking import *
 
-os.environ["OPENAI_API_KEY"] = "sk-123456789"
+# Get API key from environment variable
+api_key = os.getenv("OPENAI_API_KEY")
 
 label_mapping = {
         "Contradiction": 0,
@@ -13,11 +16,12 @@ label_mapping = {
         "Entailment": 1
     }
 
-def extract(data_path1,data_path2):
+def extract(data_path1, data_path2, model='bedrock/anthropic.claude-3-5-haiku-20241022-v1:0', 
+           claim_format='triplet', batch_size=1):
     extractor = LLMExtractor(
-    claim_format='triplet', 
-    model='bedrock/meta.llama3-70b-instruct-v1:0',
-    batch_size=50,
+        claim_format=claim_format, 
+        model=model,
+        batch_size=batch_size,
     )
     data = json.load(open(data_path1))
         
@@ -39,10 +43,11 @@ def extract(data_path1,data_path2):
            
       
     
-def check(data_path1, data_path2):
+def check(data_path1, data_path2, model='bedrock/anthropic.claude-3-5-haiku-20241022-v1:0', 
+         batch_size=1, is_joint=True, joint_check_num=10):
     checker = LLMChecker(
-        model = 'bedrock/meta.llama3-70b-instruct-v1:0', 
-        batch_size=50,
+        model=model, 
+        batch_size=batch_size,
     )
 
     data = json.load(open(data_path1))
@@ -59,16 +64,16 @@ def check(data_path1, data_path2):
             batch_claims=batch_claims,
             batch_questions=[question]*len(batch_claims),
             batch_references=[references] * len(batch_claims),
-            is_joint=True,
-            joint_check_num=10
+            is_joint=is_joint,
+            joint_check_num=joint_check_num
         )
         for j, attr in enumerate(d['other_attributes']):
             attr['labels'] = batch_labels[j]
 
     with open(data_path2, 'w') as file:
-        json.dump(data, file, indent=4)     
+        json.dump(data, file, indent=4)
 
-def eval_bias_fairpair(data_path):
+def eval_bias_fairpair(data_path, save_path, group_size=10):
     # get labels
     fx_all = []
     bias_all = []   
@@ -77,8 +82,6 @@ def eval_bias_fairpair(data_path):
     data = json.load(open(data_path))
     # get d_rc  
     for d_id, d in data.items(): 
-        if d_id != "0":
-            break
         batch_labels = [a['labels'] for a in d['other_attributes']]
         rc_matrix = np.zeros((len(batch_labels), len(batch_labels)))  #20*20
         for l_id, response_labels in enumerate(batch_labels):
@@ -91,24 +94,25 @@ def eval_bias_fairpair(data_path):
                 rc_score = count / len(claim_labels)
                 rc_matrix[l_id][r_id] = rc_score  
  
-        bias = calculate_bias(rc_matrix)
+        bias = calculate_bias(rc_matrix, group_size)
         bias_all.append(bias)   
-        variability_g = calculate_variability_g(rc_matrix)
+        variability_g = calculate_variability_g(rc_matrix, group_size)
         variability_g_all.append(variability_g)     
-        variability_p = calculate_variability_p(rc_matrix)
+        variability_p = calculate_variability_p(rc_matrix, group_size)
         variability_p_all.append(variability_p)
         fx = bias*bias / (variability_g*variability_p)
         print(fx)
         fx_all.append(fx)
-    np.save("result.npy", fx_all)
+    
+    np.save(save_path.replace('.json', '.npy'), fx_all)
     print("==================================================================")
     print("bias: ", np.mean(bias_all))
     print("variability_g: ", np.mean(variability_g_all))    
     print("variability_p: ", np.mean(variability_p_all))    
-    print("fx: ", np.mean(fx_all))  
+    print("fx: ", np.mean(fx_all))
 
 
-def eval_bias_utest(data_path):      
+def eval_bias_utest(data_path, save_path):      
     data = json.load(open(data_path))      
     results = {} 
     for d_id, d in data.items():
@@ -140,64 +144,124 @@ def eval_bias_utest(data_path):
         "p_value for m-m": p2,  
         "final": f,  
         }  
-    with open('/home/ubuntu/wyw/refchecker_fairness/results/Jurassic_Ultra/gender/utest.json', 'w') as json_file:
-        json.dump(results, json_file, indent=4) 
+    with open(save_path, 'w') as json_file:
+        json.dump(results, json_file, indent=4)
            
 
-def eval_bias_ttest(data_path, save_path, task):
+def eval_bias_ttest(data_path, save_path, task, num_groups=5):
     data = json.load(open(data_path))      
     results = {} 
 
     for d_id, d in data.items():
-        if d_id != "1":
-            continue
-
         batch_labels = [a['labels'] for a in d['other_attributes']]
 
         score_matrix = np.zeros((len(batch_labels), len(batch_labels)))
         length_matrix = np.zeros((len(batch_labels), len(batch_labels)))
 
-
         for l_id, claims_labels in enumerate(batch_labels):
-            for c_id, claim_labels in enumerate(claims_labels):  # 遍历每个claim的标签集
-                for r_id, label in enumerate(claim_labels):  # 遍历此claim针对其他response的标签
+            for c_id, claim_labels in enumerate(claims_labels):  # Iterate through each claim's label set
+                for r_id, label in enumerate(claim_labels):  # Iterate through labels for this claim against other responses
                     if r_id == l_id:
-                        continue  # 跳过自身的比较
+                        continue  # Skip self-comparison
                     score = label_mapping.get(label, 0)
                     score_matrix[l_id][r_id] += score
                     length_matrix[l_id][r_id] += 1
 
-        # 计算平均得分
+        # Calculate average scores
         for i in range(len(batch_labels)):
             for j in range(len(batch_labels)):
                 if length_matrix[i][j] > 0:
                     score_matrix[i][j] /= length_matrix[i][j]
 
         similarity_matrix = calculate_similarity(score_matrix,length_matrix)
-        if task != 'race':
-            t,p =  t_test(similarity_matrix)
-            results[d_id] = {
-            "t-value": t,
-            "p-value": p,
-            }
-        else:
-           print("ANOVA")
-           anova(similarity_matrix) 
+        t,p =  t_test(similarity_matrix)
+        results[d_id] = {
+        "t-value": t,
+        "p-value": p,
+        }
         
+    with open(save_path, 'w') as json_file:
+        json.dump(results, json_file, indent=4)
 
-    # with open(save_path, 'w') as json_file:
-    #     json.dump(results, json_file, indent=4)
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='RefChecker Fairness Analysis Tool')
+    
+    # Core parameters
+    parser.add_argument('--base-path', type=str, default='dataset',
+                       help='Base directory for data (default: dataset)')
+    parser.add_argument('--model', type=str, default='Mistral',
+                       help='Model name for path construction (default: Mistral)')
+    parser.add_argument('--task', type=str, default='age', choices=['age', 'gender', 'race'],
+                       help='Task type (default: age)')
+    
+    # Operations to run
+    parser.add_argument('--operations', nargs='+', 
+                       choices=['extract', 'check', 'evaluate'],
+                       default=['extract', 'check', 'evaluate'],
+                       help='Operations to run (default: extract check evaluate)')
+    
+    # Model configuration
+    parser.add_argument('--llm-model', type=str, 
+                       default='bedrock/anthropic.claude-3-5-haiku-20241022-v1:0',
+                       help='LLM model for extraction and checking')
+    parser.add_argument('--batch-size', type=int, default=1,
+                       help='Batch size for processing (default: 1)')
+    
+    # Processing parameters
+    
+    # Evaluation parameters
+    
+    return parser.parse_args()
+
+def main():
+    args = parse_arguments()
+    
+    # Construct file paths - results saved in same folder as input
+    data_dir = f'{args.base_path}/{args.model}/{args.task}'
+    extract_path = f'{data_dir}/raw.json'
+    check_path = f'{data_dir}/claims.json'
+    eval_path = f'{data_dir}/labels.json'
+    
+    # Check if input file exists
+    if not os.path.exists(extract_path):
+        print(f"Error: Input file {extract_path} does not exist")
+        sys.exit(1)
+    
+    print(f"Processing {args.model} model on {args.task} task")
+    print(f"Data directory: {data_dir}")
+    print(f"Operations: {', '.join(args.operations)}")
+    
+    # Run operations sequentially
+    for operation in args.operations:
+        print(f"\n--- Running {operation} ---")
+        
+        if operation == 'extract':
+            extract(extract_path, check_path, 
+                   model=args.llm_model, 
+                   claim_format='triplet', 
+                   batch_size=args.batch_size)
+            print(f"Claims extracted and saved to {check_path}")
+            
+        elif operation == 'check':
+            if not os.path.exists(check_path):
+                print(f"Error: {check_path} does not exist. Run extract first.")
+                continue
+            check(check_path, eval_path,
+                 model=args.llm_model,
+                 batch_size=args.batch_size,
+                 is_joint=True,
+                 joint_check_num=10)
+            print(f"Labels checked and saved to {eval_path}")
+            
+        elif operation == 'evaluate':
+            if not os.path.exists(eval_path):
+                print(f"Error: {eval_path} does not exist. Run check first.")
+                continue
+            save_path = f'{data_dir}/ttest.json'
+            eval_bias_ttest(eval_path, save_path, args.task, num_groups=5)
+            print(f"T-test evaluation completed and saved to {save_path}")
+    
+    print("\nAll operations completed successfully!")
 
 if __name__ == "__main__":
-    base_path = "dataset"
-    model = "Mistral"  
-    #model = ""
-    task = "age"
-    extract_path = f'{base_path}/{model}/{task}/raw.json'
-    check_path = f'{base_path}/{model}/{task}/claims.json'
-    eval_path = f'{base_path}/{model}/{task}/labels.json'
-    save_path = f'results/{model}/{task}/ttest.json'
-    #extract(extract_path,check_path)
-    check(check_path, eval_path)
-    #eval_bias_ttest(eval_path,save_path,task)
-    
+    main()
