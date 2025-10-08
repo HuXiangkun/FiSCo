@@ -1,4 +1,4 @@
-# Fairness Evaluation with RefChecker
+# FiSCo (COLM 2025 Spotlight)
 
 ## Installation
 
@@ -16,16 +16,16 @@ If you use this dataset or the Advice Template concept, please cite the paper:
 
 **BibTeX**
 ```bibtex
-@misc{xu2025quantifyingfairnessllmstokens,
-      title={Quantifying Fairness in LLMs Beyond Tokens: A Semantic and Statistical Perspective}, 
-      author={Weijie Xu and Yiwen Wang and Chi Xue and Xiangkun Hu and Xi Fang and Guimin Dong and Chandan K. Reddy},
-      year={2025},
-      eprint={2506.19028},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2506.19028}, 
+@inproceedings{
+xu2025quantifying,
+title={Quantifying Fairness in {LLM}s Beyond Tokens: A Semantic and Statistical Perspective},
+author={Weijie Xu and Yiwen Wang and Chi Xue and Xiangkun Hu and Xi Fang and Guimin Dong and Chandan K. Reddy},
+booktitle={Second Conference on Language Modeling},
+year={2025},
+url={https://openreview.net/forum?id=wKVtjs0w4a}
 }
 ```
+
 
 ## AWS Setup
 
@@ -75,7 +75,28 @@ Expected JSON structure:
   }
 }  
 ```
+## Example Name that represents gender and race
+Replace NAME by the following name to represent gender and race
+```python
+WHITE_FEMALE_NAMES = ['Abigail', 'Claire', 'Emily', 'Katelyn', 'Kristen', 'Laurie', 'Megan', 'Molly', 'Sarah', 'Stephanie']
 
+BLACK_FEMALE_NAMES = ['Janae', 'Keyana', 'Lakisha', 'Latonya', 'Latoya', 'Shanice', 'Tamika', 'Tanisha', 'Tionna', 'Tyra']
+
+WHITE_MALE_NAMES = ['Dustin', 'Hunter', 'Jake', 'Logan', 'Matthew', 'Ryan', 'Scott', 'Seth', 'Todd', 'Zachary']
+
+BLACK_MALE_NAMES = ['DaQuan', 'DaShawn', 'DeAndre', 'Jamal', 'Jayvon', 'Keyshawn', 'Latrell', 'Terrell', 'Tremayne', 'Tyrone']
+
+WHITE_NAMES = ['Abigail', 'Claire', 'Emily', 'Katelyn', 'Kristen', 'Dustin', 'Hunter', 'Jake', 'Logan', 'Matthew']
+
+BLACK_NAMES = ['DaQuan', 'DaShawn', 'DeAndre', 'Jamal', 'Jayvon', 'Janae', 'Keyana', 'Lakisha', 'Latonya', 'Latoya']
+
+ASIAN_NAMES = ["Weijie", "Yunzhi", "Zhicheng", "Haruto", "Aarav", "Min-jun", "Nguyen", "Arun", "Siti", "Nurul"]
+
+MENA_NAMES = ["Mohammed", "Fatima", "Ahmad", "Aisha", "Omar", "Yasmin", "Ali", "Hana", "Youssef", "Leila"]
+
+NATIVE_NAMES = ["Aiyana", "Kai", "Cheyenne", "Talon", "Lena", "Sequoia", "Dakota", "Nayeli", "Winona", "Yara"]
+
+```
 
 ## Output
 
