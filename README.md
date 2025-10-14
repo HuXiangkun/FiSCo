@@ -32,9 +32,9 @@ The collection website: https://huggingface.co/collections/groupfairnessllm/fisc
 
 | Name | Description / Purpose | Format & Size | Notes / Special Features |
 |---|---|---|---|
-| **age_bias_with_human_label** | Text instances annotated with human labels regarding age-based bias | Parquet, ~10 K–100 K size :contentReference[oaicite:1]{index=1} | Contains prompts / responses involving age (“young”, “old”, etc.). :contentReference[oaicite:2]{index=2} |
-| **gender_bias_with_human_label** | Text instances annotated with human labels regarding gender-based bias | Parquet, ~10 K–100 K size :contentReference[oaicite:3]{index=3} | Gender-group bias evaluation dataset |
-| **race_bias_with_human_label** | Text instances annotated with human labels regarding race-based bias | Parquet, ~10 K–100 K size :contentReference[oaicite:4]{index=4} | Race-based group fairness evaluation dataset |
+| **age_bias_with_human_label** | Text instances annotated with human labels regarding age-based bias | 150k | Contains prompts / responses involving age (“young”, “old”, etc.). :contentReference[oaicite:2]{index=2} |
+| **gender_bias_with_human_label** | Text instances annotated with human labels regarding gender-based bias | 150k | Gender-group bias evaluation dataset |
+| **race_bias_with_human_label** | Text instances annotated with human labels regarding race-based bias | 150k | Race-based group fairness evaluation dataset |
 | **bias_example_with_reward** | Examples linking bias-laden prompts or responses with reward signals | 200-500 | Useful for connecting bias to reward modeling or RL-based fairness mitigation |
 | **bias_triggering_question_suggestion** | Generated or suggested questions to trigger bias in LLMs | 200-500 | Suggestion Question for probing LLM |
 | **bias_triggering_question_advice** | Advice or guidance questions for bias triggering | 200-500 | Insight Generation Question for probing LLM |
