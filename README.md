@@ -27,7 +27,8 @@ url={https://openreview.net/forum?id=wKVtjs0w4a}
 ```
 
 ## Huggingface
-This collection includes the following datasets:
+This collection includes the following datasets: 
+The collection website: https://huggingface.co/collections/groupfairnessllm/fisco-evaluating-llms-group-level-fairness-684cb5ec459dbf509b83e37e
 
 | Name | Description / Purpose | Format & Size | Notes / Special Features |
 |---|---|---|---|
