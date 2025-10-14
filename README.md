@@ -26,8 +26,36 @@ url={https://openreview.net/forum?id=wKVtjs0w4a}
 }
 ```
 
+## Huggingface
+This collection includes the following datasets:
 
-## AWS Setup
+| Name | Description / Purpose | Format & Size | Notes / Special Features |
+|---|---|---|---|
+| **age_bias_with_human_label** | Text instances annotated with human labels regarding age-based bias | Parquet, ~10 K–100 K size :contentReference[oaicite:1]{index=1} | Contains prompts / responses involving age (“young”, “old”, etc.). :contentReference[oaicite:2]{index=2} |
+| **gender_bias_with_human_label** | Text instances annotated with human labels regarding gender-based bias | Parquet, ~10 K–100 K size :contentReference[oaicite:3]{index=3} | Gender-group bias evaluation dataset |
+| **race_bias_with_human_label** | Text instances annotated with human labels regarding race-based bias | Parquet, ~10 K–100 K size :contentReference[oaicite:4]{index=4} | Race-based group fairness evaluation dataset |
+| **bias_example_with_reward** | Examples linking bias-laden prompts or responses with reward signals | 200-500 | Useful for connecting bias to reward modeling or RL-based fairness mitigation |
+| **bias_triggering_question_suggestion** | Generated or suggested questions to trigger bias in LLMs | 200-500 | Suggestion Question for probing LLM |
+| **bias_triggering_question_advice** | Advice or guidance questions for bias triggering | 200-500 | Insight Generation Question for probing LLM |
+
+---
+
+## How to Use These Datasets
+
+Here’s a suggested pattern for how to load and use these datasets in your code:
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset("groupfairnessllm", "age_bias_with_human_label")
+# ds will have splits such as train, validation, etc. (or a single default split)
+
+# Example: examine fields
+print(ds["train"].column_names)
+print(ds["train"][0])
+```
+
+## AWS bedrock Setup
 
 ```bash
 export AWS_ACCESS_KEY_ID=<your_aws_access_key_id>
@@ -35,6 +63,27 @@ export AWS_SECRET_ACCESS_KEY=<your_aws_secret_access_key>
 export AWS_REGION_NAME=<your_aws_region_name>
 ```
 
+## OpenAI Setup
+```bash
+export OPENAI_API_KEY=""
+```
+
+## vllm Setup
+Please use vllm to setup the API server for open source LLMs. For example, use the following command to deploy a Llama 3 8B hosted on HuggingFace:
+```bash
+python -m vllm.entrypoints.openai.api_server \
+  --model meta-llama/Meta-Llama-3-8B-Instruct \
+  --tensor-parallel-size 8 \
+  --dtype auto \
+  --api-key sk-123456789 \
+  --gpu-memory-utilization 0.9 \
+  --port 5000
+```
+Setup the api key:
+
+```bash
+export OPENAI_API_KEY=sk-123456789
+```
 ## Usage
 
 ```bash
@@ -48,6 +97,7 @@ python checking.py --model <model_name> --task <task_type> --operations <operati
 - `--base-path`: Base directory for data (default: dataset)
 - `--llm-model`: LLM model for processing (default: bedrock/anthropic.claude-3-5-haiku-20241022-v1:0)
 - `--batch-size`: Batch size (default: 1)
+- `--llm-type`: You can choose bedrock, openai or vllm
 
 ## Input Format
 
